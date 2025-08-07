@@ -7,7 +7,7 @@ const CERTIFICATE_DATABASE = [
         name: "OSEI BROBBEY ISAAC",
         email: "isaacbrobbey65@gmail.com",
         issueDate: "Jul 15, 2025",
-        event: "FIPS webinar",
+        event: "ADVANCED CERTIFICATE IN DRILLING & BLASTING TECHNOLOGY.",
         issuer: "Festari Institute",
         validUntil: "Jul 15, 2026",
         certificateType: "Attendance",
