@@ -1,0 +1,38 @@
+{
+  "lastUpdated": "2025-08-09T21:32:22.477709",
+  "totalCertificates": 2,
+  "certificates": {
+    "FIPS-WB01-BFECEC": {
+      "code": "FIPS-WB01-BFECEC",
+      "id": "159add85-319a-4be9-8930-fa321927d539",
+      "name": "OSEI BROBBEY ISAAC",
+      "email": "isaacbrobbey65@gmail.com",
+      "issueDate": "August 09, 2025",
+      "event": "FIPS Webinar Series - Episode 1",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "August 09, 2026",
+      "pdfPath": "certificates\\159add85-319a-4be9-8930-fa321927d539_certificate.pdf",
+      "qrPath": "qr_codes/159add85-319a-4be9-8930-fa321927d539_qr.png",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=FIPS-WB01-BFECEC",
+      "downloadUrl": "https://verify.fips.ac/certificates\\159add85-319a-4be9-8930-fa321927d539_certificate.pdf",
+      "status": "valid",
+      "generatedAt": "2025-08-09T21:32:21.799119"
+    },
+    "FIPS-WB01-FDFEBE": {
+      "code": "FIPS-WB01-FDFEBE",
+      "id": "02fcfaca-296f-4ef7-8286-bb0811eea479",
+      "name": "Festus kunkyin-Saadaari",
+      "email": "fsaadaari@gmail.com",
+      "issueDate": "August 09, 2025",
+      "event": "FIPS Webinar Series - Episode 1",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "August 09, 2026",
+      "pdfPath": "certificates\\02fcfaca-296f-4ef7-8286-bb0811eea479_certificate.pdf",
+      "qrPath": "qr_codes/02fcfaca-296f-4ef7-8286-bb0811eea479_qr.png",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=FIPS-WB01-FDFEBE",
+      "downloadUrl": "https://verify.fips.ac/certificates\\02fcfaca-296f-4ef7-8286-bb0811eea479_certificate.pdf",
+      "status": "valid",
+      "generatedAt": "2025-08-09T21:32:22.471943"
+    }
+  }
+}

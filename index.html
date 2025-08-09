@@ -1,458 +1,13 @@
-<script>
-        // Certificate database - this will be loaded from JSON file in production
-        let certificatesDatabase = {};
-        let isLoadingFromAPI = false;
-        
-        // Configuration
-        const CONFIG = {
-            apiUrl: 'web_assets/certificates_database.json', // Path to your JSON database
-            baseUrl: window.location.origin,
-            certificatesPath: 'web_assets/certificates',
-            organizationName: 'Festari Institute of Professional Studies'
-        };
-
-        // Load certificates from JSON database
-        async function loadCertificatesDatabase() {
-            try {
-                isLoadingFromAPI = true;
-                const response = await fetch(CONFIG.apiUrl);
-                if (response.ok) {
-                    const data = await response.json();
-                    certificatesDatabase = data.certificates || {};
-                    console.log(`Loaded ${Object.keys(certificatesDatabase).length} certificates from database`);
-                    return true;
-                }
-            } catch (error) {
-                console.warn('Could not load online database, using fallback data');
-            }
-            
-            // Fallback to hardcoded data if JSON file is not available
-            certificatesDatabase = {
-                "FIPS-WB01-FBCDED": {
-                    code: "FIPS-WB01-FBCDED",
-                    name: "OSEI BROBBEY ISAAC",
-                    email: "isaacbrobbey65@gmail.com",
-                    issueDate: "Jul 15, 2025",
-                    event: "FIPS webinar",
-                    issuer: "Festari Institute of Professional Studies",
-                    validUntil: "Jul 15, 2026",
-                    downloadUrl: "#",
-                    status: "valid"
-                },
-                "FEST-2025-ABC123": {
-                    code: "FEST-2025-ABC123",
-                    name: "SAMPLE USER",
-                    email: "sample@example.com",
-                    issueDate: "Jan 10, 2025",
-                    event: "Professional Development Course",
-                    issuer: "Festari Institute of Professional Studies",
-                    validUntil: "Jan 10, 2027",
-                    downloadUrl: "#",
-                    status: "valid"
-                }
-            };
-            return false;
-        }
-
-        // Check for certificate code in URL parameters
-        function checkURLParameters() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const codeFromURL = urlParams.get('code');
-            
-            if (codeFromURL) {
-                document.getElementById('certificateCode').value = codeFromURL.toUpperCase();
-                // Auto-verify if code is provided in URL
-                setTimeout(() => {
-                    document.getElementById('verificationForm').dispatchEvent(new Event('submit'));
-                }, 1000);
-            }
-        }
-
-        // DOM elements
-        const form = document.getElementById('verificationForm');
-        const submitButton = document.getElementById('submitButton');
-        const modalOverlay = document.getElementById('modalOverlay');
-        const modalContent = document.getElementById('modalContent');
-        const modalHeader = document.getElementById('modalHeader');
-        const modalBody = document.getElementById('modalBody');
-        const modalClose = document.getElementById('modalClose');
-        const resultIcon = document.getElementById('resultIcon');
-        const resultTitle = document.getElementById('resultTitle');
-        const resultMessage = document.getElementById('resultMessage');
-
-        // Initialize the application
-        document.addEventListener('DOMContentLoaded', async function() {
-            await loadCertificatesDatabase();
-            checkURLParameters();
-            
-            // Add subtle animations on page load
-            setTimeout(() => {
-                document.querySelector('.main-logo').style.animation = 'slideIn 0.6s ease-out';
-            }, 100);
-            
-            setTimeout(() => {
-                document.querySelector('.company-branding').style.animation = 'slideIn 0.6s ease-out';
-            }, 300);
-            
-            setTimeout(() => {
-                document.querySelector('.verification-card').style.animation = 'slideIn 0.6s ease-out';
-            }, 500);
-        });
-
-        // Form submission handler
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const certificateCode = document.getElementById('certificateCode').value.trim().toUpperCase();
-            
-            if (!certificateCode) {
-                showError('Please enter a certificate code');
-                return;
-            }
-
-            // Show loading state
-            showLoading();
-            
-            // Simulate API call delay
-            setTimeout(() => {
-                const certificate = certificatesDatabase[certificateCode];
-                
-                if (certificate && certificate.status === 'valid') {
-                    showSuccess(certificate);
-                } else {
-                    showError('Certificate not found. Please check your certificate code and try again.');
-                }
-            }, 1500);
-        });
-
-        // Show loading state
-        function showLoading() {
-            submitButton.disabled = true;
-            submitButton.innerHTML = '<div class="loading"></div> Verifying Certificate...';
-        }
-
-        // Reset button state
-        function resetButton() {
-            submitButton.disabled = false;
-            submitButton.innerHTML = '<i class="fas fa-shield-check"></i> Verify Certificate';
-        }
-
-        // Show success modal with enhanced features
-        function showSuccess(certificate) {
-            resetButton();
-            
-            // Set modal type
-            modalContent.className = 'modal-content success-modal';
-            
-            // Set header content
-            resultIcon.innerHTML = '<i class="fas fa-check-circle"></i>';
-            resultTitle.textContent = 'Certificate Verified Successfully';
-            resultMessage.textContent = 'This certificate is authentic, valid, and issued by Festari Institute of Professional Studies.';
-            
-            // Create download button if available
-            const downloadButton = certificate.downloadUrl && certificate.downloadUrl !== '#' ? 
-                `<a href="${certificate.downloadUrl}" class="download-button" target="_blank">
-                    <i class="fas fa-download"></i> Download Certificate
-                </a>` : '';
-            
-            // Create share button
-            const shareButton = `
-                <button class="share-button" onclick="shareCertificate('${certificate.code}')">
-                    <i class="fas fa-share-alt"></i> Share Certificate
-                </button>`;
-
-            // Set body content with enhanced details
-            modalBody.innerHTML = `
-                <div class="certificate-details">
-                    <div class="detail-grid">
-                        <div class="detail-item">
-                            <span class="detail-label">Certificate Holder</span>
-                            <span class="detail-value">${certificate.name}</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Email Address</span>
-                            <span class="detail-value">${certificate.email}</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Certificate Code</span>
-                            <span class="detail-value">${certificate.code}</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Issue Date</span>
-                            <span class="detail-value">${certificate.issueDate}</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Program/Event</span>
-                            <span class="detail-value">${certificate.event}</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Issuing Authority</span>
-                            <span class="detail-value">${certificate.issuer}</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Valid Until</span>
-                            <span class="detail-value">${certificate.validUntil}</span>
-                        </div>
-                        ${certificate.verificationUrl ? `
-                        <div class="detail-item">
-                            <span class="detail-label">Verification URL</span>
-                            <span class="detail-value">
-                                <a href="${certificate.verificationUrl}" target="_blank" style="color: var(--fips-green); text-decoration: underline;">
-                                    Verify Online
-                                </a>
-                            </span>
-                        </div>` : ''}
-                    </div>
-                    
-                    <div class="verification-badge">
-                        <i class="fas fa-certificate"></i>
-                        Verified Certificate
-                    </div>
-                    
-                    <div class="certificate-actions">
-                        ${downloadButton}
-                        ${shareButton}
-                        <button class="verify-again-button" onclick="hideModal()">
-                            <i class="fas fa-search"></i> Verify Another Certificate
-                        </button>
-                    </div>
-                </div>
-            `;
-            
-            showModal();
-        }
-
-        // Share certificate function
-        function shareCertificate(certificateCode) {
-            const shareUrl = `${window.location.origin}${window.location.pathname}?code=${certificateCode}`;
-            const shareText = `Check out my verified certificate from ${CONFIG.organizationName}! Certificate Code: ${certificateCode}`;
-            
-            if (navigator.share) {
-                navigator.share({
-                    title: 'Certificate Verification',
-                    text: shareText,
-                    url: shareUrl
-                }).catch(console.error);
-            } else {
-                // Fallback: copy to clipboard
-                navigator.clipboard.writeText(shareUrl).then(() => {
-                    alert('Verification link copied to clipboard!');
-                }).catch(() => {
-                    // Further fallback: show URL in prompt
-                    prompt('Copy this verification link:', shareUrl);
-                });
-            }
-        }
-
-        // Show error modal
-        function showError(message) {
-            resetButton();
-            
-            // Set modal type
-            modalContent.className = 'modal-content error-modal';
-            
-            // Set header content
-            resultIcon.innerHTML = '<i class="fas fa-exclamation-triangle"></i>';
-            resultTitle.textContent = 'Certificate Verification Failed';
-            resultMessage.textContent = message;
-            
-            // Set body content
-            modalBody.innerHTML = `
-                <div style="text-align: center; padding: 1.5rem 0;">
-                    <p style="color: var(--gray-600); margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
-                        The certificate code you entered could not be verified in our system. This could indicate:
-                    </p>
-                    <div style="background: rgba(239, 68, 68, 0.1); padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0; border-left: 4px solid #ef4444;">
-                        <ul style="text-align: left; color: var(--gray-700); margin: 0; padding-left: 1.5rem; font-size: 1rem; line-height: 1.8;">
-                            <li>The certificate code is incorrect or contains typos</li>
-                            <li>The certificate has not been issued yet</li>
-                            <li>The certificate has been revoked or expired</li>
-                            <li>The certificate was not issued by Festari Institute</li>
-                        </ul>
-                    </div>
-                    <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.6;">
-                        Please double-check your certificate code and try again. If you continue to experience issues, 
-                        contact <strong style="color: var(--fips-deep-green);">Festari Institute of Professional Studies</strong> 
-                        support team for assistance.
-                    </p>
-                    
-                    <div style="margin-top: 2rem;">
-                        <button class="verify-again-button" onclick="hideModal(); document.getElementById('certificateCode').focus();">
-                            <i class="fas fa-redo"></i> Try Again
-                        </button>
-                    </div>
-                </div>
-            `;
-            
-            showModal();
-        }
-
-        // Show modal
-        function showModal() {
-            modalOverlay.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
-
-        // Hide modal
-        function hideModal() {
-            modalOverlay.classList.remove('active');
-            document.body.style.overflow = '';
-            // Clear the URL parameter when modal is closed
-            if (window.location.search.includes('code=')) {
-                const url = new URL(window.location);
-                url.searchParams.delete('code');
-                window.history.replaceState({}, '', url);
-                document.getElementById('certificateCode').value = '';
-            }
-        }
-
-        // Modal close handlers
-        modalClose.addEventListener('click', hideModal);
-        modalOverlay.addEventListener('click', function(e) {
-            if (e.target === modalOverlay) {
-                hideModal();
-            }
-        });
-
-        // Keyboard handler for modal
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
-                hideModal();
-            }
-        });
-
-        // Auto-format certificate code input
-        document.getElementById('certificateCode').addEventListener('input', function(e) {
-            // Convert to uppercase for consistency
-            e.target.value = e.target.value.toUpperCase();
-        });
-    </script>
-    
-    <style>
-        /* Additional styles for enhanced features */
-        .certificate-actions {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-            justify-content: center;
-            margin-top: 1.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--gray-200);
-        }
-
-        .download-button,
-        .share-button,
-        .verify-again-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.25rem;
-            border-radius: 8px;
-            font-size: 0.875rem;
-            font-weight: 600;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            font-family: 'Poppins', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .download-button {
-            background: linear-gradient(135deg, var(--fips-gold), var(--fips-gold-light));
-            color: var(--fips-deep-green);
-        }
-
-        .download-button:hover {
-            background: linear-gradient(135deg, var(--fips-gold-dark), var(--fips-gold));
-            transform: translateY(-1px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .share-button {
-            background: linear-gradient(135deg, #1e40af, #3b82f6);
-            color: var(--white);
-        }
-
-        .share-button:hover {
-            background: linear-gradient(135deg, #1e3a8a, #1e40af);
-            transform: translateY(-1px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .verify-again-button {
-            background: linear-gradient(135deg, var(--gray-600), var(--gray-700));
-            color: var(--white);
-        }
-
-        .verify-again-button:hover {
-            background: linear-gradient(135deg, var(--gray-700), var(--gray-800));
-            transform: translateY(-1px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        /* Loading animation improvements */
-        .loading {
-            display: inline-block;
-            width: 18px;
-            height: 18px;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            border-top-color: var(--white);
-            animation: spin 1s ease-in-out infinite;
-        }
-
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        /* Enhanced responsive design for action buttons */
-        @media (max-width: 768px) {
-            .certificate-actions {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .download-button,
-            .share-button,
-            .verify-again-button {
-                width: 100%;
-                justify-content: center;
-                max-width: 280px;
-            }
-        }
-
-        /* Smooth transitions for all interactive elements */
-        .verification-card,
-        .modal-content,
-        .submit-button,
-        .main-logo {
-            transition: all 0.3s ease;
-        }
-
-        /* Enhanced focus states for better accessibility */
-        .form-input:focus,
-        .submit-button:focus,
-        .download-button:focus,
-        .share-button:focus,
-        .verify-again-button:focus {
-            outline: 2px solid var(--fips-gold);
-            outline-offset: 2px;
-        }
-    </style>
-</body>
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIPS Certificate Verification System</title>
-    <link rel="icon" type="image/png" href="assests/logo-festari.png">
+    <link rel="icon" type="image/png" href="assets/logo-festari.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
         :root {
             --fips-deep-green: #0a3814;
@@ -1059,6 +614,69 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        /* Additional styles for enhanced features */
+        .certificate-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .download-button,
+        .share-button,
+        .verify-again-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .download-button {
+            background: linear-gradient(135deg, var(--fips-gold), var(--fips-gold-light));
+            color: var(--fips-deep-green);
+        }
+
+        .download-button:hover {
+            background: linear-gradient(135deg, var(--fips-gold-dark), var(--fips-gold));
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .share-button {
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            color: var(--white);
+        }
+
+        .share-button:hover {
+            background: linear-gradient(135deg, #1e3a8a, #1e40af);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .verify-again-button {
+            background: linear-gradient(135deg, var(--gray-600), var(--gray-700));
+            color: var(--white);
+        }
+
+        .verify-again-button:hover {
+            background: linear-gradient(135deg, var(--gray-700), var(--gray-800));
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
         /* Enhanced Footer */
         .footer {
             text-align: center;
@@ -1125,6 +743,16 @@
 
         .hidden {
             display: none;
+        }
+
+        /* Enhanced focus states for better accessibility */
+        .form-input:focus,
+        .submit-button:focus,
+        .download-button:focus,
+        .share-button:focus,
+        .verify-again-button:focus {
+            outline: 2px solid var(--fips-gold);
+            outline-offset: 2px;
         }
 
         /* Responsive Design */
@@ -1199,49 +827,68 @@
                 text-align: left;
             }
 
-            .result-icon {
-                width: 64px;
-                height: 64px;
-                font-size: 2rem;
+            .certificate-actions {
+                flex-direction: column;
+                align-items: center;
             }
-
-            .result-title {
-                font-size: 1.5rem;
+            
+            .download-button,
+            .share-button,
+            .verify-again-button {
+                width: 100%;
+                justify-content: center;
+                max-width: 280px;
             }
         }
 
-        @media (min-width: 1200px) {
-            .header-content {
-                padding: 0 3rem;
+        @media (max-width: 480px) {
+            .header-section {
+                padding: 1.5rem 0 2rem;
             }
             
-            .main-content {
-                padding: 3rem;
-            }
-
             .main-logo {
-                width: 130px;
-                height: 130px;
+                width: 80px;
+                height: 80px;
+                border-radius: 16px;
             }
 
             .main-logo img {
-                width: 95px;
-                height: 95px;
+                width: 55px;
+                height: 55px;
             }
 
             .company-name {
-                font-size: 2rem;
+                font-size: 1.2rem;
             }
-
+            
             .header-title {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
             }
 
             .header-subtitle {
-                font-size: 1.2rem;
+                font-size: 0.9rem;
+            }
+            
+            .verification-card {
+                padding: 1.5rem;
+                border-radius: 16px;
+            }
+
+            .card-title {
+                font-size: 1.3rem;
+            }
+            
+            .form-input {
+                padding: 0.875rem 1rem 0.875rem 3rem;
+            }
+            
+            .submit-button {
+                padding: 1rem 1.5rem;
+                font-size: 0.9rem;
             }
         }
     </style>
+    
 </head>
 <body>
     <div class="main-container">
@@ -1250,7 +897,7 @@
             <div class="header-content">
                 <div class="company-branding">
                     <div class="main-logo">
-                        <img src="assests/logo-festari.png" 
+                        <img src="assets/logo-festari.png" 
                              alt="FIPS Logo" 
                              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                         <i class="fas fa-graduation-cap main-logo-fallback" style="display: none;"></i>
@@ -1328,28 +975,97 @@
     </div>
 
     <script>
-        // Certificate database - replace this with your actual data source
-        const certificates = [
-            {
-                code: "FIPS-WB01-FBCDED",
-                name: "OSEI BROBBEY ISAAC",
-                email: "isaacbrobbey65@gmail.com",
-                issueDate: "Jul 15, 2025",
-                event: "FIPS webinar",
-                issuer: "Festari Institute of Professional Studies",
-                validUntil: "Jul 15, 2026"
-            },
-            {
-                code: "FEST-2025-ABC123",
-                name: "SAMPLE USER",
-                email: "sample@example.com",
-                issueDate: "Jan 10, 2025",
-                event: "Professional Development Course",
-                issuer: "Festari Institute of Professional Studies",
-                validUntil: "Jan 10, 2027"
+        // FIXED Configuration - matches Python script output
+        const CONFIG = {
+            apiUrl: 'certificates_database.json',  // FIXED: No web_assets prefix
+            baseUrl: window.location.origin,
+            certificatesPath: 'certificates/',
+            organizationName: 'Festari Institute of Professional Studies'
+        };
+
+        // Certificate database - this will be loaded from JSON file in production
+        let certificatesDatabase = {};
+        let isLoadingFromAPI = false;
+
+        // FIXED: Load certificates from JSON database
+        async function loadCertificatesDatabase() {
+            try {
+                isLoadingFromAPI = true;
+                console.log('🔄 Loading database from:', CONFIG.apiUrl);
+                
+                const response = await fetch(CONFIG.apiUrl);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    certificatesDatabase = data.certificates || {};
+                    console.log(`✅ Loaded ${Object.keys(certificatesDatabase).length} certificates from database`);
+                    console.log('📋 Available certificate codes:', Object.keys(certificatesDatabase).slice(0, 5));
+                    
+                    // Debug: Log a sample certificate structure
+                    if (Object.keys(certificatesDatabase).length > 0) {
+                        const sampleCode = Object.keys(certificatesDatabase)[0];
+                        const sampleCert = certificatesDatabase[sampleCode];
+                        console.log('📄 Sample certificate:', {
+                            code: sampleCert.code,
+                            downloadUrl: sampleCert.downloadUrl,
+                            verificationUrl: sampleCert.verificationUrl
+                        });
+                    }
+                    
+                    return true;
+                } else {
+                    console.error('❌ Failed to load database:', response.status, response.statusText);
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+            } catch (error) {
+                console.error('❌ Database loading error:', error);
+                console.warn('⚠️ Could not load online database, using fallback data');
+                
+                // Fallback to hardcoded data if JSON file is not available
+                certificatesDatabase = {
+                    "FIPS-WB01-FBCDED": {
+                        code: "FIPS-WB01-FBCDED",
+                        name: "OSEI BROBBEY ISAAC",
+                        email: "isaacbrobbey65@gmail.com",
+                        issueDate: "July 15, 2025",
+                        event: "FIPS Webinar Series - Episode 1",
+                        issuer: "Festari Institute of Professional Studies",
+                        validUntil: "July 15, 2026",
+                        downloadUrl: "#",
+                        verificationUrl: window.location.origin + "/?code=FIPS-WB01-FBCDED",
+                        status: "valid"
+                    },
+                    "FEST-2025-ABC123": {
+                        code: "FEST-2025-ABC123",
+                        name: "SAMPLE USER",
+                        email: "sample@example.com",
+                        issueDate: "January 10, 2025",
+                        event: "Professional Development Course",
+                        issuer: "Festari Institute of Professional Studies",
+                        validUntil: "January 10, 2027",
+                        downloadUrl: "#",
+                        verificationUrl: window.location.origin + "/?code=FEST-2025-ABC123",
+                        status: "valid"
+                    }
+                };
+                return false;
             }
-            // Add more certificates here
-        ];
+        }
+
+        // Check for certificate code in URL parameters
+        function checkURLParameters() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const codeFromURL = urlParams.get('code');
+            
+            if (codeFromURL) {
+                document.getElementById('certificateCode').value = codeFromURL.toUpperCase();
+                console.log('🔗 Certificate code found in URL:', codeFromURL.toUpperCase());
+                // Auto-verify if code is provided in URL
+                setTimeout(() => {
+                    verifyCertificate(codeFromURL.toUpperCase());
+                }, 1000);
+            }
+        }
 
         // DOM elements
         const form = document.getElementById('verificationForm');
@@ -1362,6 +1078,44 @@
         const resultIcon = document.getElementById('resultIcon');
         const resultTitle = document.getElementById('resultTitle');
         const resultMessage = document.getElementById('resultMessage');
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', async function() {
+            console.log('🚀 Initializing FIPS Certificate Verification System');
+            await loadCertificatesDatabase();
+            checkURLParameters();
+            
+            // Add subtle animations on page load
+            setTimeout(() => {
+                document.querySelector('.main-logo').style.animation = 'slideIn 0.6s ease-out';
+            }, 100);
+            
+            setTimeout(() => {
+                document.querySelector('.company-branding').style.animation = 'slideIn 0.6s ease-out';
+            }, 300);
+            
+            setTimeout(() => {
+                document.querySelector('.verification-card').style.animation = 'slideIn 0.6s ease-out';
+            }, 500);
+        });
+
+        // FIXED: Certificate verification function
+        function verifyCertificate(certificateCode) {
+            console.log('🔍 Verifying certificate:', certificateCode);
+            console.log('📊 Database contains:', Object.keys(certificatesDatabase).length, 'certificates');
+            console.log('🔎 Looking for code in database...');
+            
+            const certificate = certificatesDatabase[certificateCode];
+            
+            if (certificate && certificate.status === 'valid') {
+                console.log('✅ Certificate found and valid:', certificate);
+                showSuccess(certificate);
+            } else {
+                console.log('❌ Certificate not found or invalid');
+                console.log('Available codes:', Object.keys(certificatesDatabase));
+                showError('Certificate not found. Please check your certificate code and try again.');
+            }
+        }
 
         // Form submission handler
         form.addEventListener('submit', function(e) {
@@ -1377,15 +1131,9 @@
             // Show loading state
             showLoading();
             
-            // Simulate API call delay
+            // Simulate API call delay for better UX
             setTimeout(() => {
-                const certificate = certificates.find(cert => cert.code.toUpperCase() === certificateCode);
-                
-                if (certificate) {
-                    showSuccess(certificate);
-                } else {
-                    showError('Certificate not found. Please check your certificate code and try again.');
-                }
+                verifyCertificate(certificateCode);
             }, 1500);
         });
 
@@ -1401,7 +1149,7 @@
             submitButton.innerHTML = '<i class="fas fa-shield-check"></i> Verify Certificate';
         }
 
-        // Show success modal
+        // FIXED: Show success modal with enhanced features
         function showSuccess(certificate) {
             resetButton();
             
@@ -1413,7 +1161,19 @@
             resultTitle.textContent = 'Certificate Verified Successfully';
             resultMessage.textContent = 'This certificate is authentic, valid, and issued by Festari Institute of Professional Studies.';
             
-            // Set body content
+            // FIXED: Create download button with proper URL handling
+            const downloadButton = certificate.downloadUrl && certificate.downloadUrl !== '#' && certificate.downloadUrl !== '' ? 
+                `<a href="${certificate.downloadUrl}" class="download-button" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-download"></i> Download Certificate
+                </a>` : '';
+            
+            // Create share button
+            const shareButton = `
+                <button class="share-button" onclick="shareCertificate('${certificate.code}')">
+                    <i class="fas fa-share-alt"></i> Share Certificate
+                </button>`;
+
+            // Set body content with enhanced details
             modalBody.innerHTML = `
                 <div class="certificate-details">
                     <div class="detail-grid">
@@ -1445,15 +1205,55 @@
                             <span class="detail-label">Valid Until</span>
                             <span class="detail-value">${certificate.validUntil}</span>
                         </div>
+                        ${certificate.verificationUrl ? `
+                        <div class="detail-item">
+                            <span class="detail-label">Verification URL</span>
+                            <span class="detail-value">
+                                <a href="${certificate.verificationUrl}" target="_blank" style="color: var(--fips-green); text-decoration: underline;">
+                                    Verify Online
+                                </a>
+                            </span>
+                        </div>` : ''}
                     </div>
+                    
                     <div class="verification-badge">
                         <i class="fas fa-certificate"></i>
                         Verified Certificate
+                    </div>
+                    
+                    <div class="certificate-actions">
+                        ${downloadButton}
+                        ${shareButton}
+                        <button class="verify-again-button" onclick="hideModal()">
+                            <i class="fas fa-search"></i> Verify Another Certificate
+                        </button>
                     </div>
                 </div>
             `;
             
             showModal();
+        }
+
+        // Share certificate function
+        function shareCertificate(certificateCode) {
+            const shareUrl = `${window.location.origin}${window.location.pathname}?code=${certificateCode}`;
+            const shareText = `Check out my verified certificate from ${CONFIG.organizationName}! Certificate Code: ${certificateCode}`;
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Certificate Verification',
+                    text: shareText,
+                    url: shareUrl
+                }).catch(console.error);
+            } else {
+                // Fallback: copy to clipboard
+                navigator.clipboard.writeText(shareUrl).then(() => {
+                    alert('Verification link copied to clipboard!');
+                }).catch(() => {
+                    // Further fallback: show URL in prompt
+                    prompt('Copy this verification link:', shareUrl);
+                });
+            }
         }
 
         // Show error modal
@@ -1487,6 +1287,12 @@
                         contact <strong style="color: var(--fips-deep-green);">Festari Institute of Professional Studies</strong> 
                         support team for assistance.
                     </p>
+                    
+                    <div style="margin-top: 2rem;">
+                        <button class="verify-again-button" onclick="hideModal(); document.getElementById('certificateCode').focus();">
+                            <i class="fas fa-redo"></i> Try Again
+                        </button>
+                    </div>
                 </div>
             `;
             
@@ -1503,6 +1309,13 @@
         function hideModal() {
             modalOverlay.classList.remove('active');
             document.body.style.overflow = '';
+            // Clear the URL parameter when modal is closed
+            if (window.location.search.includes('code=')) {
+                const url = new URL(window.location);
+                url.searchParams.delete('code');
+                window.history.replaceState({}, '', url);
+                document.getElementById('certificateCode').value = '';
+            }
         }
 
         // Modal close handlers
@@ -1524,22 +1337,6 @@
         document.getElementById('certificateCode').addEventListener('input', function(e) {
             // Convert to uppercase for consistency
             e.target.value = e.target.value.toUpperCase();
-        });
-
-        // Add subtle animations on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            // Animate elements in sequence
-            setTimeout(() => {
-                document.querySelector('.main-logo').style.animation = 'slideIn 0.6s ease-out';
-            }, 100);
-            
-            setTimeout(() => {
-                document.querySelector('.company-branding').style.animation = 'slideIn 0.6s ease-out';
-            }, 300);
-            
-            setTimeout(() => {
-                document.querySelector('.verification-card').style.animation = 'slideIn 0.6s ease-out';
-            }, 500);
         });
     </script>
 </body>
