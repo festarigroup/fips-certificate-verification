@@ -1,0 +1,9 @@
+{
+  "apiUrl": "https://verify.fips.ac/certificates_database.json",
+  "baseUrl": "https://verify.fips.ac",
+  "certificatesPath": "certificates/",
+  "qrCodesPath": "qr_codes/",
+  "organizationName": "Festari Institute of Professional Studies",
+  "eventName": "FIPS Webinar Series - Episode 1",
+  "lastUpdated": "2025-08-09T17:51:45.458148"
+}
