@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIPS Certificate Verification System</title>
-    <link rel="icon" type="image/png" href="assets/logo-festari.png">
+    <link rel="icon" type="image/png" href="assests/logo-festari.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
@@ -897,7 +897,7 @@
             <div class="header-content">
                 <div class="company-branding">
                     <div class="main-logo">
-                        <img src="assets/logo-festari.png" 
+                        <img src="assests/logo-festari.png" 
                              alt="FIPS Logo" 
                              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                         <i class="fas fa-graduation-cap main-logo-fallback" style="display: none;"></i>
@@ -1182,10 +1182,6 @@
                             <span class="detail-value">${certificate.name}</span>
                         </div>
                         <div class="detail-item">
-                            <span class="detail-label">Email Address</span>
-                            <span class="detail-value">${certificate.email}</span>
-                        </div>
-                        <div class="detail-item">
                             <span class="detail-label">Certificate Code</span>
                             <span class="detail-value">${certificate.code}</span>
                         </div>
@@ -1201,10 +1197,7 @@
                             <span class="detail-label">Issuing Authority</span>
                             <span class="detail-value">${certificate.issuer}</span>
                         </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Valid Until</span>
-                            <span class="detail-value">${certificate.validUntil}</span>
-                        </div>
+                        
                         ${certificate.verificationUrl ? `
                         <div class="detail-item">
                             <span class="detail-label">Verification URL</span>
