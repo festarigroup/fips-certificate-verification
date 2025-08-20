@@ -259,6 +259,23 @@
       "downloadUrl": "https://verify.fips.ac/certificates\\385a9444-bbf6-4f98-9f18-7bb768262b9a_certificate.pdf",
       "status": "valid",
       "generatedAt": "2025-08-10T11:56:50.340853"
+    },
+    "PME.001.014.25": {
+      "code": "PME.001.014.25",
+      "id": "34053943-d701-4da1-b2e3-186e8be0f423",
+      "name": "Osei Brobbey Isaac ",
+      "email": "isaacbrobbey65@gmail.com",
+      "issueDate": "August 20, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "DR FESTUS KUNKYIN-SAADAARI",
+      "validUntil": "August 20, 2026",
+      "pdfPath": "certificates\\34053943-d701-4da1-b2e3-186e8be0f423_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PME.001.014.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\34053943-d701-4da1-b2e3-186e8be0f423_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "dbd9264be3551d0a409aaf6cdd4eca3134b0901b3dee947bbd94d4b48bcbacb2",
+      "generatedAt": "2025-08-20T01:46:28.215008"
     }
+    
   }
 }
