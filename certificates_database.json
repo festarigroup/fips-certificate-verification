@@ -278,19 +278,19 @@
     },
     "PME.001.015.25": {
       "code": "PME.001.015.25",
-      "id": "b8e0973d-8115-4c36-8467-07070d91c44b",
-      "name": "Ayan Augustine",
+      "id": "05adbc0d-c016-495c-9c31-1cf9e0d64368",
+      "name": "Anyan Augustine",
       "email": "augustineanyan45@gmail.com",
       "issueDate": "August 20, 2025",
       "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
       "issuer": "DR FESTUS KUNKYIN-SAADAARI",
       "validUntil": "August 20, 2026",
-      "pdfPath": "certificates\\b8e0973d-8115-4c36-8467-07070d91c44b_certificate.pdf",
+      "pdfPath": "certificates\\05adbc0d-c016-495c-9c31-1cf9e0d64368_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=PME.001.015.25",
-      "downloadUrl": "https://verify.fips.ac/certificates\\b8e0973d-8115-4c36-8467-07070d91c44b_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates\\05adbc0d-c016-495c-9c31-1cf9e0d64368_certificate.pdf",
       "status": "valid",
-      "verificationHash": "078c0a12f403eab2f3d221e8852bb6f4b36aef71fea9f9a3e76246079b84f480",
-      "generatedAt": "2025-08-20T03:15:59.957102"
+      "verificationHash": "ec17de742dba8a4eb2d2c677641592873518e2535d1a229ccddcf24f375039eb",
+      "generatedAt": "2025-08-20T13:44:24.215727"
     },
     "PME.001.016.25": {
       "code": "PME.001.016.25",
@@ -339,6 +339,54 @@
       "status": "valid",
       "verificationHash": "639bcb3c6dbcfbeae8f80682caef4d674ab49ca7b315f386f169fcba408f5c78",
       "generatedAt": "2025-08-20T03:16:02.738741"
+    },
+    "SMO.003.001.25": {
+      "code": "SMO.003.001.25",
+      "id": "64d8ec42-1e09-497a-944d-2a2b26a17813",
+      "name": "Osei Brobbey Isaac ",
+      "email": "isaacbrobbey65@gmail.com",
+      "issueDate": "August 21, 2025",
+      "event": "FIPS Webinar Series - Episode 1",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "August 21, 2026",
+      "pdfPath": "certificates\\64d8ec42-1e09-497a-944d-2a2b26a17813_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=SMO.003.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\64d8ec42-1e09-497a-944d-2a2b26a17813_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "19e04578eacbffe1dc5b6de82e65756a87c96ddf7b079f9becb05a3e5dba8990",
+      "generatedAt": "2025-08-21T01:11:47.214670"
+    },
+    "SMO.003.002.25": {
+      "code": "SMO.003.002.25",
+      "id": "645c14b8-161e-43ee-a064-b6f711204232",
+      "name": "THEOPHILUS McKEOWN OKYERE",
+      "email": "nana.mckeown@icloud.com",
+      "issueDate": "August 21, 2025",
+      "event": "FIPS Webinar Series - Episode 1",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "August 21, 2026",
+      "pdfPath": "certificates\\645c14b8-161e-43ee-a064-b6f711204232_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=SMO.003.002.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\645c14b8-161e-43ee-a064-b6f711204232_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "6e116f2109ebf290412bf62e75c829c89efd6fd8856cace7d7ea43f65d0d4a2a",
+      "generatedAt": "2025-08-21T01:11:47.422920"
+    },
+    "SMO.003.003.25": {
+      "code": "SMO.003.003.25",
+      "id": "4a28070a-f933-490e-ae70-49c2c0c3ad5e",
+      "name": "James Kweku Forson",
+      "email": "jkforson9@gmail.com",
+      "issueDate": "August 21, 2025",
+      "event": "FIPS Webinar Series - Episode 1",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "August 21, 2026",
+      "pdfPath": "certificates\\4a28070a-f933-490e-ae70-49c2c0c3ad5e_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=SMO.003.003.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\4a28070a-f933-490e-ae70-49c2c0c3ad5e_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "e53d1de87ac156652603d75084703fd55920fb39fdec9b45102aabd9f9e8390c",
+      "generatedAt": "2025-08-21T01:11:47.673101"
     }
     
   }
