@@ -420,6 +420,22 @@
       "verificationHash": "b9ef7938620590e86a086f7efd2ed4a541d27be341cd7ad480084a9b6547a838",
       "generatedAt": "2025-08-21T20:07:35.124902"
     },
+    "SMO.003.006.25": {
+      "code": "SMO.003.006.25",
+      "id": "8b46aa8b-53d8-416a-9395-7e4e730e9bab",
+      "name": "Ebenezer Ntim Mensah",
+      "email": " ntimgrandion@gmail.com",
+      "issueDate": "August 21, 2025",
+      "event": "FIPS Webinar Series - Episode 1",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "August 21, 2026",
+      "pdfPath": "certificates\\8b46aa8b-53d8-416a-9395-7e4e730e9bab_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=SMO.003.006.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\8b46aa8b-53d8-416a-9395-7e4e730e9bab_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "1180886f2fa99efeee4f5781d99cb00c53f82c44b5b749c607e4d8d2d9286830",
+      "generatedAt": "2025-08-21T22:56:43.788644"
+    },
     "DBT.004.034.25": {
       "code": "DBT.004.034.25",
       "id": "ed89bbbb-3e79-4adc-a096-eedc2180c38c",
