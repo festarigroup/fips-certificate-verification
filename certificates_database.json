@@ -1075,6 +1075,38 @@
       "status": "valid",
       "verificationHash": "79dc852b5d8da8b5325993e0acedba38d3b7c5fc48dd1c6a3d78838e4faf3ef4",
       "generatedAt": "2025-08-23T01:20:14.933871"
+    },
+    "MPD.007.001.25": {
+      "code": "MPD.007.001.25",
+      "id": "662fa85a-038b-4949-b3cf-c2b5b3e98150",
+      "name": "Osei Brobbey Isaac ",
+      "email": "isaacbrobbey65@gmail.com",
+      "issueDate": "August 23, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "August 23, 2026",
+      "pdfPath": "certificates\\662fa85a-038b-4949-b3cf-c2b5b3e98150_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MPD.007.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\662fa85a-038b-4949-b3cf-c2b5b3e98150_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "c76d689a2ec7f36785ea3f5449678b8d4fc7d77105a903fc1f50db1ab0d387c7",
+      "generatedAt": "2025-08-23T11:09:21.180750"
+    },
+    "MPD.007.002.25": {
+      "code": "MPD.007.002.25",
+      "id": "4cc89865-05a6-4917-a674-090bb6caed2c",
+      "name": "Hasana Maltiti Mohammed",
+      "email": "hasanamaltiti2mohammed@gmail.com",
+      "issueDate": "August 23, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "August 23, 2026",
+      "pdfPath": "certificates\\4cc89865-05a6-4917-a674-090bb6caed2c_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MPD.007.002.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\4cc89865-05a6-4917-a674-090bb6caed2c_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "69656aa924864bd4989ff67d4a4a9204da040edd6832054ab638cda58b2aecc2",
+      "generatedAt": "2025-08-23T11:09:21.418471"
     }
     
   }
