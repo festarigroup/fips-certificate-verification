@@ -1078,19 +1078,19 @@
     },
     "MOH.006.048.25": {
       "code": "MOH.006.048.25",
-      "id": "89afbc64-afea-4025-bbd8-e58984811a50",
-      "name": "Julian Ghansah",
+      "id": "e99d995e-82bf-4a92-92c0-5a18ce0d818e",
+      "name": "Julian Osei Ghansah",
       "email": " julianghansah619@gmail.com",
-      "issueDate": "August 23, 2025",
+      "issueDate": "August 24, 2025",
       "event": "PRINFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
       "issuer": "Festari Institute of Professional Studies",
-      "validUntil": "August 23, 2026",
-      "pdfPath": "certificates\\89afbc64-afea-4025-bbd8-e58984811a50_certificate.pdf",
+      "validUntil": "August 24, 2026",
+      "pdfPath": "certificates\\e99d995e-82bf-4a92-92c0-5a18ce0d818e_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.048.25",
-      "downloadUrl": "https://verify.fips.ac/certificates\\89afbc64-afea-4025-bbd8-e58984811a50_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates\\e99d995e-82bf-4a92-92c0-5a18ce0d818e_certificate.pdf",
       "status": "valid",
-      "verificationHash": "8ab76d3e5860a915f5a8568b1711632ce716da099218936cc03578ca8637fbee",
-      "generatedAt": "2025-08-23T12:21:57.095700"
+      "verificationHash": "9c525594c2abdc2f24f4e4d5cc9b8e3a060b866ea2949d445505a4dd60491876",
+      "generatedAt": "2025-08-24T11:45:06.045187"
     },
     "MPD.007.001.25": {
       "code": "MPD.007.001.25",
