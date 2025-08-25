@@ -676,6 +676,38 @@
       "verificationHash": "a29e0e649b698108118e57aad1bbef2cb1216636f9f5ee31cef9550b74892ae2",
       "generatedAt": "2025-08-21T22:21:41.487072"
     },
+    "DBT.004.049.25": {
+      "code": "DBT.004.049.25",
+      "id": "b2207bf4-da84-4fd7-80f7-2593c166dd24",
+      "name": "Darkwa-Mensah Benedict Asubonteng",
+      "email": "benedictasubonteng1171@gmail.com",
+      "issueDate": "August 25, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGY",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "August 25, 2026",
+      "pdfPath": "certificates\\b2207bf4-da84-4fd7-80f7-2593c166dd24_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DBT.004.049.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\b2207bf4-da84-4fd7-80f7-2593c166dd24_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "68198e5d7a718e5dfff3eb66f845a1722ddfb3d0942516eead96ed8927825940",
+      "generatedAt": "2025-08-25T16:46:14.246435"
+    },
+    "DBT.004.050.25": {
+      "code": "DBT.004.050.25",
+      "id": "20678334-f48d-4b80-8b73-187afd5ac997",
+      "name": "Emmanuel Mensah",
+      "email": "emmanuelabedumensahem7@gmail.com",
+      "issueDate": "August 25, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGY",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "August 25, 2026",
+      "pdfPath": "certificates\\20678334-f48d-4b80-8b73-187afd5ac997_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DBT.004.050.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\20678334-f48d-4b80-8b73-187afd5ac997_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "931163dee49e329fbe38314dc24d93da9e5d394a2ebb8695ead08f8f04daf3dd",
+      "generatedAt": "2025-08-25T16:46:14.634458"
+    },
     "UMO.005.002.25": {
       "code": "UMO.005.002.25",
       "id": "62c6b2d8-d802-486b-95cf-42b12262e3e0",
