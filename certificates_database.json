@@ -1742,7 +1742,59 @@
       "status": "valid",
       "verificationHash": "b36eaa8bb8f4a1545444223bda842ca9fd1d1bbe7865970acaeb52a9167c6512",
       "generatedAt": "2025-08-24T21:28:20.783486"
+    },
+    "PMT.001.012.25": {
+      "code": "PMT.001.012.25",
+      "id": "42707cab-b8db-404c-a805-159fa6fccefa",
+      "name": "Amara Moro Sidibe",
+      "email": "morosidibe0281@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "August 31, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "August 31, 2026",
+      "pdfPath": "certificates\\42707cab-b8db-404c-a805-159fa6fccefa_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.012.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\42707cab-b8db-404c-a805-159fa6fccefa_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "077b8a30848dfd8d393d94d0e88519edb44af6176643a5d13d8659cb482c741a",
+      "generatedAt": "2025-08-31T19:01:57.073043"
+    },
+    "PMT.001.013.25": {
+      "code": "PMT.001.013.25",
+      "id": "1a0b5f7a-4539-4556-9887-13fffcf29764",
+      "name": "Asare Okai Aaron",
+      "email": "aaronokai@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "August 31, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "August 31, 2026",
+      "pdfPath": "certificates\\1a0b5f7a-4539-4556-9887-13fffcf29764_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.013.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\1a0b5f7a-4539-4556-9887-13fffcf29764_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "50ba328a2e8cd6d44f09f9178e7732b5d0e897de2575eebe79a5d0baf8362fe4",
+      "generatedAt": "2025-08-31T19:01:57.774666"
+    },
+    "PMT.001.014.25": {
+      "code": "PMT.001.014.25",
+      "id": "944b72c9-f4e3-4585-904e-38f366ecc7d1",
+      "name": "Mohammed Mariama",
+      "email": "mohammedmariama200@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "August 31, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "August 31, 2026",
+      "pdfPath": "certificates\\944b72c9-f4e3-4585-904e-38f366ecc7d1_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.014.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\944b72c9-f4e3-4585-904e-38f366ecc7d1_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "06f32ff8d9d6af71657b6978b947f0b86b0332a06e49771100d5cc54b20c36a2",
+      "generatedAt": "2025-08-31T19:01:58.420928"
     }
+  }
     
   }
 }
