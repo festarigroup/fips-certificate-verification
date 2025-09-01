@@ -1793,8 +1793,55 @@
       "status": "valid",
       "verificationHash": "06f32ff8d9d6af71657b6978b947f0b86b0332a06e49771100d5cc54b20c36a2",
       "generatedAt": "2025-08-31T19:01:58.420928"
+    },
+    "MOH.006.061.25": {
+      "code": "MOH.006.061.25",
+      "id": "e5d7a1f5-e572-482f-9bea-1a8f8e5fa42f",
+      "name": "Amara Moro Sidibe",
+      "email": "morosidibe0281@gmail.com",
+      "issueDate": "September 01, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "September 01, 2026",
+      "pdfPath": "certificates\\e5d7a1f5-e572-482f-9bea-1a8f8e5fa42f_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.061.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\e5d7a1f5-e572-482f-9bea-1a8f8e5fa42f_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "3e1d9e2fe5227eb1836833f62837c000dd4786cb0f7a2bf260a9199217421fe2",
+      "generatedAt": "2025-09-01T20:01:27.565342"
+    },
+    "MOH.006.062.25": {
+      "code": "MOH.006.062.25",
+      "id": "c39ed65a-a2c5-468f-9398-7d2ec8e37bfa",
+      "name": "Asare Okai Aaron",
+      "email": "aaronokai@gmail.com",
+      "issueDate": "September 01, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "September 01, 2026",
+      "pdfPath": "certificates\\c39ed65a-a2c5-468f-9398-7d2ec8e37bfa_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.062.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\c39ed65a-a2c5-468f-9398-7d2ec8e37bfa_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "8dcbdc2dd04433b85d0a39d517d2ee438618f80bfe269998560d390865bbbc78",
+      "generatedAt": "2025-09-01T20:01:27.683525"
+    },
+    "MOH.006.063.25": {
+      "code": "MOH.006.063.25",
+      "id": "61010214-e178-40fa-b2ad-782df33002cb",
+      "name": "Mohammed Mariama",
+      "email": "mohammedmariama200@gmail.com",
+      "issueDate": "September 01, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "September 01, 2026",
+      "pdfPath": "certificates\\61010214-e178-40fa-b2ad-782df33002cb_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.063.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\61010214-e178-40fa-b2ad-782df33002cb_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "7e8a59b19f1f8a12d77e54aba13b345b366e7f06a805e7d61268fe49fc716ebe",
+      "generatedAt": "2025-09-01T20:01:28.022949"
     }
   }
-    
-  }
+
 }
