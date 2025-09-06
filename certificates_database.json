@@ -1300,6 +1300,23 @@
       "verificationHash": "9596d299f9f92d2c87f49797218964f200ed60f599aaa40d690271c37984da07",
       "generatedAt": "2025-08-24T20:57:03.320819"
     },
+    "MOH.006.064.25": {
+      "code": "MOH.006.064.25",
+      "id": "3f41f2b7-9538-42e9-af84-0d3f638d4978",
+      "name": "Mohammed Ayifa",
+      "email": "mohammedayifa25@gmail.com",
+      "issueDate": "September 06, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "September 06, 2026",
+      "pdfPath": "certificates\\3f41f2b7-9538-42e9-af84-0d3f638d4978_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.064.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\3f41f2b7-9538-42e9-af84-0d3f638d4978_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "362a537f43c912b44472ea8edca1aa8203dcb087f2ef203d11fc73f9ea94b9dc",
+      "generatedAt": "2025-09-06T19:08:04.174761"
+    },
+    
     "MPD.007.001.25": {
       "code": "MPD.007.001.25",
       "id": "176f9a6b-1701-400c-b772-de03aa9e84eb",
