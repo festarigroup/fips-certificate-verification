@@ -1874,6 +1874,22 @@
       "status": "valid",
       "verificationHash": "7bf2749454f09fa78c0616bd338e05fc0fa6d56e7554dc6f01ea4c5e4d841f9d",
       "generatedAt": "2025-09-06T19:37:39.160920"
+    },
+    "MPD.007.003.25": {
+      "code": "MPD.007.003.25",
+      "id": "f0016874-1bc1-4af5-8c71-a3aae2fa5f19",
+      "name": "Asare Bless Nana Yaw",
+      "email": "asareghon@gmail.com",
+      "issueDate": "September 13, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "September 13, 2026",
+      "pdfPath": "certificates\\f0016874-1bc1-4af5-8c71-a3aae2fa5f19_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MPD.007.003.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\f0016874-1bc1-4af5-8c71-a3aae2fa5f19_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "17c996aada2c57737ac80d68c8e943920b0795b8db97fa5e5e261d9bca26981e",
+      "generatedAt": "2025-09-13T22:05:56.543681"
     }
   }
 
