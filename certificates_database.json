@@ -741,7 +741,22 @@
       "verificationHash": "e58b8d78ba5f424b8dac8cf681b76dde66768fa84a9f0a8c9845054449489a5d",
       "generatedAt": "2025-09-16T06:53:52.153473"
     },
-    
+    "MOH.006.065.25": {
+      "code": "MOH.006.065.25",
+      "id": "fded4973-e7be-4604-9569-c671da494f98",
+      "name": "Patrick Elorm Newman",
+      "email": " elormpatrick88@gmail.com",
+      "issueDate": "September 17, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "September 17, 2026",
+      "pdfPath": "certificates\\fded4973-e7be-4604-9569-c671da494f98_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.065.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\fded4973-e7be-4604-9569-c671da494f98_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "c7b56fc22bf5f37aaa4fb46fa9db5d46f5c9b2833710316872d7781f4a169266",
+      "generatedAt": "2025-09-17T16:44:02.511398"
+    },
     "MOH.006.067.25": {
       "code": "MOH.006.067.25",
       "id": "0f12774f-5289-4aed-b649-591f429b7c76",
