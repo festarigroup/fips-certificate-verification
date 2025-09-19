@@ -1955,6 +1955,23 @@
       "status": "valid",
       "verificationHash": "17c996aada2c57737ac80d68c8e943920b0795b8db97fa5e5e261d9bca26981e",
       "generatedAt": "2025-09-13T22:05:56.543681"
+    },
+    "PMT.001.015.25": {
+      "code": "PMT.001.015.25",
+      "id": "1ad1135d-ccc0-408e-bd5e-92797858c7b9",
+      "name": "Godfred Williams-Nanyaa",
+      "email": "godfredwulon@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "September 19, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "September 19, 2026",
+      "pdfPath": "certificates\\1ad1135d-ccc0-408e-bd5e-92797858c7b9_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.015.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\1ad1135d-ccc0-408e-bd5e-92797858c7b9_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "3e228f9ff8e1fbe044db2757282dae10859c625c00c46aeba6cb9ddfa6d48c6a",
+      "generatedAt": "2025-09-19T16:23:23.590022"
     }
   }
 
