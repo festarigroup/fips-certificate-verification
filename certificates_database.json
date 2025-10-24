@@ -535,19 +535,19 @@
     },
     "DBT.004.040.25": {
       "code": "DBT.004.040.25",
-      "id": "2d127787-e127-4b6a-a69b-91d274616835",
-      "name": "Emmanuel Acqua",
+      "id": "5a623147-4065-4a44-8d5b-738491360189",
+      "name": "Emmanuel Acquah",
       "email": "acquaemmanuel@gmail.com",
-      "issueDate": "August 21, 2025",
-      "event": "FIPS Webinar Series - Episode 1",
+      "issueDate": "October 24, 2025",
+      "event": "Principles of Mining Engineering",
       "issuer": "Festari Institute of Professional Studies",
-      "validUntil": "August 21, 2026",
-      "pdfPath": "certificates\\2d127787-e127-4b6a-a69b-91d274616835_certificate.pdf",
+      "validUntil": "October 24, 2026",
+      "pdfPath": "certificates\\5a623147-4065-4a44-8d5b-738491360189_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=DBT.004.040.25",
-      "downloadUrl": "https://verify.fips.ac/certificates\\2d127787-e127-4b6a-a69b-91d274616835_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates\\5a623147-4065-4a44-8d5b-738491360189_certificate.pdf",
       "status": "valid",
-      "verificationHash": "89b0087d3a72ecea21bb0c3df064c9e6209fee42e0aedb0edffe4b8ac9970ccb",
-      "generatedAt": "2025-08-21T22:21:38.871898"
+      "verificationHash": "3e87747bb7d036dde71a8a9e0ba0925bb92b167b28923f75773879ad9fc2552c",
+      "generatedAt": "2025-10-24T10:21:30.795375"
     },
     "DBT.004.041.25": {
       "code": "DBT.004.041.25",
@@ -1973,6 +1973,7 @@
       "verificationHash": "3e228f9ff8e1fbe044db2757282dae10859c625c00c46aeba6cb9ddfa6d48c6a",
       "generatedAt": "2025-09-19T16:23:23.590022"
     }
+    
   }
 
 }
