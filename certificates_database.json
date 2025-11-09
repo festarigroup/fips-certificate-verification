@@ -2071,6 +2071,39 @@
       "status": "valid",
       "verificationHash": "83f1bab5bd99c600f4648ab2087ecb755d7f62e0073f0ec57c150370d6b1be6e",
       "generatedAt": "2025-10-31T13:29:20.552554"
+    },
+     "PMT.001.019.25": {
+      "code": "PMT.001.019.25",
+      "id": "5dfbe4c6-94ba-4631-a6e6-e3b5a34815f4",
+      "name": " Gabriel Awuah",
+      "email": "\tgabrielkojoawuah@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "November 09, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "November 09, 2026",
+      "pdfPath": "certificates\\5dfbe4c6-94ba-4631-a6e6-e3b5a34815f4_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.019.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\5dfbe4c6-94ba-4631-a6e6-e3b5a34815f4_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "39665c6531ee18360e33e17407bf6d5fac5d120f1f63349efc87e7c2a44ba824",
+      "generatedAt": "2025-11-09T16:51:01.050737"
+    },
+    "MOH.006.075.25": {
+      "code": "MOH.006.075.25",
+      "id": "f06eb045-bad2-46b2-8568-a9cabd3d502b",
+      "name": "Gabriel Awuah",
+      "email": "gabrielkojoawuah@gmail.com",
+      "issueDate": "November 09, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "November 09, 2026",
+      "pdfPath": "certificates\\f06eb045-bad2-46b2-8568-a9cabd3d502b_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.075.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\f06eb045-bad2-46b2-8568-a9cabd3d502b_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "96e30951c17d621f6395cab69e5a1b0c832b208961d904ad2257252fccf58a66",
+      "generatedAt": "2025-11-09T15:55:32.363190"
     }
     
   }
