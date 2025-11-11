@@ -2106,6 +2106,39 @@
       "generatedAt": "2025-11-09T15:55:32.363190"
     }
     
-  }
+  },
+  "HIR.001.001.25": {
+      "code": "HIR.001.001.25",
+      "id": "4bc09f15-ec9e-4920-988d-6b85f514a52c",
+      "name": "Osei Brobbey Isaac",
+      "email": "isaacbrobbey65@gmail.com",
+      "issueDate": "November 11, 2025",
+      "event": "OCCUPATIONAL HEALTH SAFTEY AND ENVIRONMENT",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "November 11, 2026",
+      "pdfPath": "certificates/4bc09f15-ec9e-4920-988d-6b85f514a52c_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=HIR.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/4bc09f15-ec9e-4920-988d-6b85f514a52c_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "1fbeb939c0fa40f7c8d784bdfda2ae557791d2e99342c5decee788cbc9720796",
+      "generatedAt": "2025-11-11T13:47:16.515361"
+    },
+    "HIR.001.002.25": {
+      "code": "HIR.001.002.25",
+      "id": "ddcaf561-3f95-43e5-8072-0c3c7d5f955a",
+      "name": "Alexander Tindana",
+      "email": "alexandersayor73@gmail.com",
+      "issueDate": "November 11, 2025",
+      "event": "OCCUPATIONAL HEALTH SAFTEY AND ENVIRONMENT",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "November 11, 2026",
+      "pdfPath": "certificates/ddcaf561-3f95-43e5-8072-0c3c7d5f955a_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=HIR.001.002.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/ddcaf561-3f95-43e5-8072-0c3c7d5f955a_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "7efae3888fccfd907810476cd9d787e780909422c42a152bde89f7437c5b069f",
+      "generatedAt": "2025-11-11T13:47:16.691724"
+    },
+
 
 }
