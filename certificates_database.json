@@ -2296,6 +2296,40 @@
       "status": "valid",
       "verificationHash": "f51fe6e043bbba8fb5f1b2aeb706df5f6a217122b03015c62e0a95c07def2e29",
       "generatedAt": "2025-11-12T13:20:45.061160"
+    },
+    "PCO.001.001.25": {
+      "code": "PCO.001.001.25",
+      "id": "6ba45555-04af-4ab5-bd99-dd5a9fc26009",
+      "name": "Eugene Dakurah",
+      "email": "iuginihope4@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "November 13, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN OCCUPATIONAL HEALTH, SAFETY ENVIRONMENT.",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "November 13, 2026",
+      "pdfPath": "certificates/6ba45555-04af-4ab5-bd99-dd5a9fc26009_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PCO.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/6ba45555-04af-4ab5-bd99-dd5a9fc26009_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "7972021889184bb17e55b1b1b9a7c4795e6d28cdf31e17c0c583c4ce147823ad",
+      "generatedAt": "2025-11-13T17:12:57.626441"
+    },
+    "PCO.001.002.25": {
+      "code": "PCO.001.002.25",
+      "id": "4a2dd211-af52-4c95-9a5d-a0855a572e68",
+      "name": "Nana Bonsu Ofori-Adjei",
+      "email": "nanabonsu009@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "November 13, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN OCCUPATIONAL HEALTH, SAFETY ENVIRONMENT.",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "November 13, 2026",
+      "pdfPath": "certificates/4a2dd211-af52-4c95-9a5d-a0855a572e68_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PCO.001.002.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/4a2dd211-af52-4c95-9a5d-a0855a572e68_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "683eb6e9cc7a17b6ae9d99dc80d622098c0fdee7ef8994f6586b815e847433c8",
+      "generatedAt": "2025-11-13T17:12:58.296809"
     }
     
   }
