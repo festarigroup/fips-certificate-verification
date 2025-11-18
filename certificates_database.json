@@ -2196,7 +2196,7 @@
       "validUntil": "November 11, 2026",
       "pdfPath": "certificates/9006aa13-56bb-4d7a-af04-d43142910209_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=LRC.001.004.25",
-      "downloadUrl": "htts:p//verify.fips.ac/certificates/9006aa13-56bb-4d7a-af04-d43142910209_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/9006aa13-56bb-4d7a-af04-d43142910209_certificate.pdf",
       "status": "valid",
       "verificationHash": "73862e9815417d186993f060fbb6b86b6a913cb2765fcdfa923e2b7d464daa54",
       "generatedAt": "2025-11-11T18:03:19.321806"
