@@ -2428,7 +2428,24 @@
       "generatedAt": "2025-11-18T16:22:39.382515"
   
     
-  }
+  },
+  "MEP.001.003.25": {
+      "code": "MEP.001.003.25",
+      "id": "037de944-c6c9-4c8b-9901-31c6fcfccb3e",
+      "name": "Seidu Mohammed",
+      "email": "seidu804@gmail.com",
+      "issueDate": "November 18, 2025",
+      "event": "OCCUPATIONAL HEALTH, SAFTEY AND ENVIRONMENT",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "November 18, 2026",
+      "pdfPath": "certificates/037de944-c6c9-4c8b-9901-31c6fcfccb3e_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MEP.001.003.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/037de944-c6c9-4c8b-9901-31c6fcfccb3e_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "a0bcebf75d1d267bb1be03e61576c9a06f3573da7c46f4e6bdd2a5e7d542f1ad",
+      "generatedAt": "2025-11-18T22:14:16.648452"
+    }
+
   
 
 
