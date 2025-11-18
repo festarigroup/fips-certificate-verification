@@ -2394,6 +2394,38 @@
       "status": "valid",
       "verificationHash": "e360a7ed6255f9ba94c543e006c4bfc438d91ee54d9a7b21c2e7433bd3a0e9b2",
       "generatedAt": "2025-11-17T11:31:11.648779"
+    },
+    "SLR.001.001.25": {
+      "code": "SLR.001.001.25",
+      "id": "d6284f17-d6ee-4742-b8ab-87f5b7b72ee1",
+      "name": "Winifred Korankye Amoah",
+      "email": "winifredamoah2020@gmail.com",
+      "issueDate": "November 18, 2025",
+      "event": "MINE OPERATIONS MANAGEMENT.",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "November 18, 2026",
+      "pdfPath": "certificates/d6284f17-d6ee-4742-b8ab-87f5b7b72ee1_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=SLR.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/d6284f17-d6ee-4742-b8ab-87f5b7b72ee1_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "7a0abf7b67d92a784a4c60c84f730116196e37e1bc865975fd139ff80d605a5f",
+      "generatedAt": "2025-11-18T13:24:25.196338"
+    },
+    "EMS.001.003.25": {
+      "code": "EMS.001.003.25",
+      "id": "c4c70f83-58e3-42f9-bb3f-79b43437a814",
+      "name": "Seidu Mohammed",
+      "email": "seidu804@gmail.com",
+      "issueDate": "November 18, 2025",
+      "event": "OCCUPATIONAL HEALTH, SAFTEY AND ENVIRONMENT",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "November 18, 2026",
+      "pdfPath": "certificates/c4c70f83-58e3-42f9-bb3f-79b43437a814_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EMS.001.003.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/c4c70f83-58e3-42f9-bb3f-79b43437a814_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "de4fab39d8689b6062fd4d2fa2c5c0f3c98a0c593f16c2261c88b13361cd1bd2",
+      "generatedAt": "2025-11-18T16:22:39.382515"
     }
     
   }
