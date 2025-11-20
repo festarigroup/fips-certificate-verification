@@ -2510,6 +2510,22 @@
       "status": "valid",
       "verificationHash": "3b220871f199cc1a3800a33ddfe903eabaac656990d9acd8cc52480b701ac0f4",
       "generatedAt": "2025-11-19T12:36:43.360946"
+    },
+    "HIR.001.003.25": {
+      "code": "HIR.001.003.25",
+      "id": "b1441733-a358-471a-8f0a-e3623f1875c3",
+      "name": "Jaabang Joseph",
+      "email": " Josephjaabang24@gmail.com",
+      "issueDate": "November 20, 2025",
+      "event": "OCCUPATIONAL HEALTH, SAFTEY AND ENVIRONMENT",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "November 20, 2026",
+      "pdfPath": "certificates/b1441733-a358-471a-8f0a-e3623f1875c3_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=HIR.001.003.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/b1441733-a358-471a-8f0a-e3623f1875c3_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "0d086086f9f9e7dd2321e9d00bffc4f16574e2663f37d700d1f23c5d9cb0a8eb",
+      "generatedAt": "2025-11-20T18:10:13.553134"
     }
   }
 }
