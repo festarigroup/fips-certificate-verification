@@ -2153,38 +2153,7 @@
       "verificationHash": "114897c91755bc05ace68d7350842e9d53774f4ec48bbcdefffa9def6ff47793",
       "generatedAt": "2025-11-11T18:03:17.914037"
     },
-    "LRC.001.002.25": {
-      "code": "LRC.001.002.25",
-      "id": "f68bf665-5c0d-4623-9826-5a9c3f2c79c1",
-      "name": "Prince Scott Abakah",
-      "email": "scottabakah22@gmail.com",
-      "issueDate": "November 11, 2025",
-      "event": "OCCUPATIONAL HEALTH, SAFTEY & ENVOIRNMENT.",
-      "issuer": "FIPS/UMAT",
-      "validUntil": "November 11, 2026",
-      "pdfPath": "certificates/f68bf665-5c0d-4623-9826-5a9c3f2c79c1_certificate.pdf",
-      "verificationUrl": "https://verify.fips.ac/index.html?code=LRC.001.002.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/f68bf665-5c0d-4623-9826-5a9c3f2c79c1_certificate.pdf",
-      "status": "valid",
-      "verificationHash": "bf4a43c463e17897018528500f4dfb2e680bb066dd711f2dbd71b0cfd080d429",
-      "generatedAt": "2025-11-11T18:03:18.503691"
-    },
-    "LRC.001.003.25": {
-      "code": "LRC.001.003.25",
-      "id": "41fd5b39-838f-4ba3-b2bb-45b58e7bff60",
-      "name": "Patience Tindana",
-      "email": "tindanapatience095@gmail.com",
-      "issueDate": "November 11, 2025",
-      "event": "OCCUPATIONAL HEALTH, SAFTEY & ENVOIRNMENT.",
-      "issuer": "FIPS/UMAT",
-      "validUntil": "November 11, 2026",
-      "pdfPath": "certificates/41fd5b39-838f-4ba3-b2bb-45b58e7bff60_certificate.pdf",
-      "verificationUrl": "https://verify.fips.ac/index.html?code=LRC.001.003.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/41fd5b39-838f-4ba3-b2bb-45b58e7bff60_certificate.pdf",
-      "status": "valid",
-      "verificationHash": "b5ca8b4fcc4ad2c2f7acd9c935d0ccf1035c6b32b1fd7212e010f8b38856080e",
-      "generatedAt": "2025-11-11T18:03:18.920835"
-    },
+    
     "LRC.001.004.25": {
       "code": "LRC.001.004.25",
       "id": "9006aa13-56bb-4d7a-af04-d43142910209",
@@ -2526,6 +2495,38 @@
       "status": "valid",
       "verificationHash": "0d086086f9f9e7dd2321e9d00bffc4f16574e2663f37d700d1f23c5d9cb0a8eb",
       "generatedAt": "2025-11-20T18:10:13.553134"
+    },
+    "WSE.001.001.25": {
+      "code": "WSE.001.001.25",
+      "id": "fafcb8bd-567b-4f04-b47a-b9977c07ca9f",
+      "name": "Patience Tindana",
+      "email": "tindanapatience095@gmail.com",
+      "issueDate": "November 28, 2025",
+      "event": "OCCUPATIONAL HEALTH, SAFTEY AND ENVIRONMENT",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "November 28, 2026",
+      "pdfPath": "certificates/fafcb8bd-567b-4f04-b47a-b9977c07ca9f_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=WSE.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/fafcb8bd-567b-4f04-b47a-b9977c07ca9f_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "76e413d3e3c2e23d4316b1bfc68d225ef430794a29b056352585f3f4bc4e99c7",
+      "generatedAt": "2025-11-28T18:22:55.294287"
+    },
+    "WSE.001.002.25": {
+      "code": "WSE.001.002.25",
+      "id": "5bca8d3d-b908-42a7-b6a5-326b2ba1c7f3",
+      "name": "Abakah Prince Scott",
+      "email": "scottabakah22@gmail.com",
+      "issueDate": "November 28, 2025",
+      "event": "OCCUPATIONAL HEALTH, SAFTEY AND ENVIRONMENT",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "November 28, 2026",
+      "pdfPath": "certificates/5bca8d3d-b908-42a7-b6a5-326b2ba1c7f3_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=WSE.001.002.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/5bca8d3d-b908-42a7-b6a5-326b2ba1c7f3_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "4dd5e31192a95a0f5458aa34ef5eb9fc8612e08d56c60d01af7bfe733054c1c5",
+      "generatedAt": "2025-11-28T18:22:55.482171"
     }
   }
 }
