@@ -2527,6 +2527,22 @@
       "status": "valid",
       "verificationHash": "4dd5e31192a95a0f5458aa34ef5eb9fc8612e08d56c60d01af7bfe733054c1c5",
       "generatedAt": "2025-11-28T18:22:55.482171"
+    },
+    "MOH.006.076.25": {
+      "code": "MOH.006.076.25",
+      "id": "c63a743b-168c-4d28-a4d6-c4ebaf4f39eb",
+      "name": "Ayine David",
+      "email": "gabrielkojdayine@ymail.com",
+      "issueDate": "December 03, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "December 03, 2026",
+      "pdfPath": "certificates\\c63a743b-168c-4d28-a4d6-c4ebaf4f39eb_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.076.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\c63a743b-168c-4d28-a4d6-c4ebaf4f39eb_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "fb540ebb509a3ddfa0e5737b9b3ea8c5852e1589f561a202d6dfdb3c6296147b",
+      "generatedAt": "2025-12-03T05:38:25.513340"
     }
   }
 }
