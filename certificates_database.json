@@ -2730,6 +2730,22 @@
       "status": "valid",
       "verificationHash": "703d5a6e4df73387c4b774db5c51f815077a9849aefec15451615db25e077c86",
       "generatedAt": "2025-12-03T16:02:47.458427"
+    },
+    "ADB.001.001.25": {
+      "code": "ADB.001.001.25",
+      "id": "1bd9111d-2747-4e55-8238-738d866c840b",
+      "name": "akwasi asante agyemang",
+      "email": "\takwasiasanteagyemang294@gmail.com",
+      "issueDate": "December 03, 2025",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "December 03, 2026",
+      "pdfPath": "certificates/1bd9111d-2747-4e55-8238-738d866c840b_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=ADB.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/1bd9111d-2747-4e55-8238-738d866c840b_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "4f9160a9a7a5dd6f30df8988ae75ea3db495e8416b0de9d1b2e3cb9f6921e885",
+      "generatedAt": "2025-12-03T18:13:33.527647"
     }
   }
 }
