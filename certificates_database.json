@@ -2746,6 +2746,23 @@
       "status": "valid",
       "verificationHash": "4f9160a9a7a5dd6f30df8988ae75ea3db495e8416b0de9d1b2e3cb9f6921e885",
       "generatedAt": "2025-12-03T18:13:33.527647"
+    },
+     "PMT.001.020.25": {
+      "code": "PMT.001.020.25",
+      "id": "68ba6510-26e3-4288-877d-c168a4b44a31",
+      "name": " Abraham Horsu",
+      "email": "abrahamhorsu@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "December 04, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "December 04, 2026",
+      "pdfPath": "certificates\\68ba6510-26e3-4288-877d-c168a4b44a31_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.020.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\68ba6510-26e3-4288-877d-c168a4b44a31_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "de633b5c92180db93a0292a00312fc09935405451221ff58af1dc0342d3336bf",
+      "generatedAt": "2025-12-04T06:42:38.986143"
     }
   }
 }
