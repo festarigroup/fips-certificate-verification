@@ -2779,6 +2779,23 @@
       "status": "valid",
       "verificationHash": "9b949c2303d3549e22542f1c17e1575583a3a579b57289854d5fe0d5b72aa189",
       "generatedAt": "2025-12-05T14:34:00.459802"
+    },
+     "PMT.001.021.25": {
+      "code": "PMT.001.021.25",
+      "id": "c1f0440b-c5c3-455d-a6f8-cf5307c74688",
+      "name": "EVELYN ATTOBRAH",
+      "email": "evelynattobrah6@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "December 07, 2025",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "UMAT",
+      "validUntil": "December 07, 2026",
+      "pdfPath": "certificates\\c1f0440b-c5c3-455d-a6f8-cf5307c74688_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.021.25",
+      "downloadUrl": "https://verify.fips.ac/certificates\\c1f0440b-c5c3-455d-a6f8-cf5307c74688_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "1c924d9c37261a1fa3cc7beb67cd080edc43390d8d85dc409f98e54a051facb6",
+      "generatedAt": "2025-12-07T13:32:38.907481"
     }
   }
 }
