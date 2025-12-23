@@ -3204,6 +3204,54 @@
       "status": "valid",
       "verificationHash": "6771fe3e149e494dc6bd80f291454af919be7f6a4f2380b239ceed72f5b37dbd",
       "generatedAt": "2025-12-22T16:27:19.427063"
+    },
+     "DTE.001.001.25": {
+      "code": "DTE.001.001.25",
+      "id": "b960b216-bd8e-4d80-bf55-36c7f1e1eb96",
+      "name": "Phinehas Adenle",
+      "email": "adenlephinehas@gmail.com",
+      "issueDate": "December 23, 2025",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "December 23, 2026",
+      "pdfPath": "certificates/b960b216-bd8e-4d80-bf55-36c7f1e1eb96_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DTE.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/b960b216-bd8e-4d80-bf55-36c7f1e1eb96_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "50e0daef361e030481de012a11e6ee3b183196ac42e811e3ead94cf0db04ac53",
+      "generatedAt": "2025-12-23T19:13:29.983574"
+    },
+    "DTE.001.002.25": {
+      "code": "DTE.001.002.25",
+      "id": "9f19ba20-c48b-461b-a97e-4678ec4fb995",
+      "name": "Victor Awuku",
+      "email": "awukuuvictor1@gmail.com",
+      "issueDate": "December 23, 2025",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "December 23, 2026",
+      "pdfPath": "certificates/9f19ba20-c48b-461b-a97e-4678ec4fb995_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DTE.001.002.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/9f19ba20-c48b-461b-a97e-4678ec4fb995_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "e0dfa1f3c8642901b2fa4c8b69891427d03c09ea4c98650cf39ad288d0184baa",
+      "generatedAt": "2025-12-23T19:13:30.200897"
+    },
+    "BDE.001.001.25": {
+      "code": "BDE.001.001.25",
+      "id": "0525e4c3-5beb-4ba8-83db-3352f7fbfbf3",
+      "name": "Emmanuel Aryee",
+      "email": "emmanuelkaryee608@outlook.com",
+      "issueDate": "December 23, 2025",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "December 23, 2026",
+      "pdfPath": "certificates/0525e4c3-5beb-4ba8-83db-3352f7fbfbf3_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=BDE.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/0525e4c3-5beb-4ba8-83db-3352f7fbfbf3_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "5060afd213808784695afb5abad4e4b2ffad65d2c40c3c91ba918fb9981ba712",
+      "generatedAt": "2025-12-23T18:55:18.163546"
     }
     
     
