@@ -3353,23 +3353,22 @@
       "verificationHash": "0c9cc880806a620f8e2246b7e8b5c16a0be4646489cce57cc5566bcc245909dd",
       "generatedAt": "2025-12-25T13:43:20.008992"
     }, 
-    "DTE.001.002.25": {
-      "code": "DTE.001.002.25",
-      "id": "e1f6cd64-78cf-4160-ae9b-f1b84e61dc27",
+    "DTE.001.003.25": {
+      "code": "DTE.001.003.25",
+      "id": "7d1d60dc-5ac9-4032-926d-3749cc62e1ef",
       "name": "SHADRACH NANA YAW AIDOO",
       "email": "aidooshadrach92@gmail.com",
       "issueDate": "December 25, 2025",
       "event": "MINE PLANNING & DESIGN",
       "issuer": "FIPS/UMAT",
       "validUntil": "December 25, 2026",
-      "pdfPath": "certificates/e1f6cd64-78cf-4160-ae9b-f1b84e61dc27_certificate.pdf",
-      "verificationUrl": "https://verify.fips.ac/index.html?code=DTE.001.002.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/e1f6cd64-78cf-4160-ae9b-f1b84e61dc27_certificate.pdf",
+      "pdfPath": "certificates/7d1d60dc-5ac9-4032-926d-3749cc62e1ef_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DTE.001.003.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/7d1d60dc-5ac9-4032-926d-3749cc62e1ef_certificate.pdf",
       "status": "valid",
-      "verificationHash": "ed91efeb2122318a7b50a0006a3794cc672f7ebbff30dfc342cceed3588db6ac",
-      "generatedAt": "2025-12-25T14:13:51.283627"
+      "verificationHash": "57e902a7e79ffc19bd6c46335ad6d4dfaee001bdeb2f0fecacddbaf6a0493dd2",
+      "generatedAt": "2025-12-25T17:45:05.067124"
     }
-    
     
   }
 }
