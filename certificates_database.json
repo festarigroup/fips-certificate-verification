@@ -3436,6 +3436,23 @@
       "status": "valid",
       "verificationHash": "b8ab35cd14ebfa39655b7a7498db4439ac99838958303b9bdd313ec68ee9c292",
       "generatedAt": "2026-01-14T13:46:44.610623"
+    },
+    "ADV.002.025.26": {
+      "code": "ADV.002.025.26",
+      "id": "67838ed8-3b34-42c7-aaa6-1ef04331ddac",
+      "name": "Enoch Adu Boateng",
+      "email": "enochboatenh100@gmail.com",
+      "grade": "PASS",
+      "issueDate": "January 14, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN DRILLING & BLASTING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 14, 2027",
+      "pdfPath": "certificates/67838ed8-3b34-42c7-aaa6-1ef04331ddac_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=ADV.002.025.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/67838ed8-3b34-42c7-aaa6-1ef04331ddac_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "a2cb41e7bb791f94f5f0e20e9832648a5387edf3700e0e663d711c711c1b415b",
+      "generatedAt": "2026-01-14T21:27:55.936263"
     }
     
   }
