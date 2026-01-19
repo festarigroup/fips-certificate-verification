@@ -3693,6 +3693,22 @@
       "status": "valid",
       "verificationHash": "d2bcc55ca5f3022d18954767c434ca5479121c6069855320274801b6d4caa6d2",
       "generatedAt": "2026-01-19T18:49:06.143648"
+    },
+    "TIM.001.001.25": {
+      "code": "TIM.001.001.25",
+      "id": "f08f67b3-2dca-4ef7-bb14-9bb966c9ad76",
+      "name": "Appiah Kofi Quaye",
+      "email": "appiahkofiquaye@gmail.com",
+      "issueDate": "January 19, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE OPERATIONS MANAGEMENT",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "January 19, 2027",
+      "pdfPath": "certificates/f08f67b3-2dca-4ef7-bb14-9bb966c9ad76_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=TIM.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/f08f67b3-2dca-4ef7-bb14-9bb966c9ad76_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "52b2ffeb71362f5368d06f57aa601db9ef079954015d7515a55da5ae71107f7b",
+      "generatedAt": "2026-01-19T19:20:52.921546"
     }
     
   }
