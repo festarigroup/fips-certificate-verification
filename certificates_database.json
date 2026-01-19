@@ -3453,6 +3453,54 @@
       "status": "valid",
       "verificationHash": "a2cb41e7bb791f94f5f0e20e9832648a5387edf3700e0e663d711c711c1b415b",
       "generatedAt": "2026-01-14T21:27:55.936263"
+    },
+    "PMT.001.001.26": {
+      "code": "PMT.001.001.26",
+      "id": "91e5d9b0-0046-41e9-a0b6-3476ee25b14b",
+      "name": "AMAN COBLAN GLORIA",
+      "email": "coblang64@gmail.com",
+      "issueDate": "January 19, 2026",
+      "event": "PRINFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "January 19, 2027",
+      "pdfPath": "certificates/91e5d9b0-0046-41e9-a0b6-3476ee25b14b_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.001.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/91e5d9b0-0046-41e9-a0b6-3476ee25b14b_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "232ffe260c390c4a06601bd15a25568f0f59dd56b33625dafe146c83c2523b2b",
+      "generatedAt": "2026-01-19T15:35:01.681123"
+    },
+    "PMT.001.002.26": {
+      "code": "PMT.001.002.26",
+      "id": "1c77ca9e-866d-40f2-932e-8d59e1d99b2a",
+      "name": "Bernard Gyamfi Osei",
+      "email": "bernardoseei@gmail.com",
+      "issueDate": "January 19, 2026",
+      "event": "PRINFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "January 19, 2027",
+      "pdfPath": "certificates/1c77ca9e-866d-40f2-932e-8d59e1d99b2a_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.002.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/1c77ca9e-866d-40f2-932e-8d59e1d99b2a_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "09a1e4aebed858da5a52a8d5b3b61c92482dc3bc9b3b304ada16b19294b547b9",
+      "generatedAt": "2026-01-19T15:35:01.789994"
+    },
+    "PMT.001.003.26": {
+      "code": "PMT.001.003.26",
+      "id": "d121c52f-8e92-4d9b-ad21-d7aba416806a",
+      "name": "FELICIA SARPONG DOMPREH",
+      "email": "domsarp@gmail.com",
+      "issueDate": "January 19, 2026",
+      "event": "PRINFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "January 19, 2027",
+      "pdfPath": "certificates/d121c52f-8e92-4d9b-ad21-d7aba416806a_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.003.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/d121c52f-8e92-4d9b-ad21-d7aba416806a_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "929b9a557346d08af3f47a69fe4d851c11adf17ef6eaa1369f4fbfb0198a9999",
+      "generatedAt": "2026-01-19T15:35:01.899717"
     }
     
   }
