@@ -3709,6 +3709,23 @@
       "status": "valid",
       "verificationHash": "52b2ffeb71362f5368d06f57aa601db9ef079954015d7515a55da5ae71107f7b",
       "generatedAt": "2026-01-19T19:20:52.921546"
+    },
+    "PMT.001.022.25": {
+      "code": "PMT.001.022.25",
+      "id": "00fff5cd-97f9-4d85-9952-144a4da842b9",
+      "name": "Evans Obo Welbeck",
+      "email": "evansobo50@gmail.com",
+      "grade": "PASS",
+      "issueDate": "January 19, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 19, 2027",
+      "pdfPath": "certificates/00fff5cd-97f9-4d85-9952-144a4da842b9_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.022.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/00fff5cd-97f9-4d85-9952-144a4da842b9_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "2f7d4069986bbb4b0fef718c36072d0b3afa39a61f153a06d40a46036defcc5f",
+      "generatedAt": "2026-01-19T21:01:33.026086"
     }
     
   }
