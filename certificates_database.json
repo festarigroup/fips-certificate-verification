@@ -3879,6 +3879,23 @@
       "status": "valid",
       "verificationHash": "1a3099e7d10f2922f5f27d40e3f2ab2d38ab7b335b8c9650479877489fa0889f",
       "generatedAt": "2026-01-20T16:45:20.610043"
+    },
+    "AMS.001.001.25": {
+      "code": "AMS.001.001.25",
+      "id": "c3b720e4-7df9-4d06-8124-5b810819f47a",
+      "name": "Opoku Ernest ",
+      "email": "ernesto42opoku@gmail.com",
+      "grade": "",
+      "issueDate": "January 21, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 21, 2027",
+      "pdfPath": "certificates/c3b720e4-7df9-4d06-8124-5b810819f47a_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=AMS.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/c3b720e4-7df9-4d06-8124-5b810819f47a_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "698453820a5b2c670add55e20174eb9ddf6f6014b8ab83fd778b25344f3f2a44",
+      "generatedAt": "2026-01-21T17:13:10.889160"
     }
     
   }
