@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-08-10T00:17:18.812723",
-  "totalCertificates": 16,
+  "lastUpdated": "2026-01-29T22:20:58.436461",
+  "totalCertificates": 246,
   "certificates": {
     "FIPS-WB01-EABEEC": {
       "code": "FIPS-WB01-EABEEC",
@@ -50,7 +50,6 @@
       "status": "valid",
       "generatedAt": "2025-08-10T00:17:11.057498"
     },
-    
     "FIPS-WB01-DCCFCC": {
       "code": "FIPS-WB01-DCCFCC",
       "id": "56e4e9dc-10db-4875-81eb-522419e5be8a",
@@ -147,7 +146,6 @@
       "status": "valid",
       "generatedAt": "2025-09-16T21:13:51.587345"
     },
-   
     "FIPS-WB01-FFBFAC": {
       "code": "FIPS-WB01-FFBFAC",
       "id": "f4cbe32a-a483-4284-bf30-1f700e0e3ed3",
@@ -164,7 +162,6 @@
       "status": "valid",
       "generatedAt": "2025-08-10T00:17:15.786954"
     },
-    
     "FIPS-WB01-FEBECA": {
       "code": "FIPS-WB01-FEBECA",
       "id": "20ac3d75-e956-4f4a-b5b3-933bec4fb2cf",
@@ -1381,7 +1378,6 @@
       "verificationHash": "362a537f43c912b44472ea8edca1aa8203dcb087f2ef203d11fc73f9ea94b9dc",
       "generatedAt": "2025-09-06T19:08:04.174761"
     },
-
     "MPD.007.001.25": {
       "code": "MPD.007.001.25",
       "id": "176f9a6b-1701-400c-b772-de03aa9e84eb",
@@ -2055,7 +2051,7 @@
       "verificationHash": "50a9ca71ce833b4f29c62f83372e5a2725117cc5ce7bfd755a8078e616ac619a",
       "generatedAt": "2025-10-27T11:33:49.650221"
     },
-     "PMT.001.018.25": {
+    "PMT.001.018.25": {
       "code": "PMT.001.018.25",
       "id": "cfac6ea9-f595-4dc9-b256-a7bbad43861c",
       "name": "EBENEZER OWUSU POKU",
@@ -2072,7 +2068,7 @@
       "verificationHash": "83f1bab5bd99c600f4648ab2087ecb755d7f62e0073f0ec57c150370d6b1be6e",
       "generatedAt": "2025-10-31T13:29:20.552554"
     },
-     "PMT.001.019.25": {
+    "PMT.001.019.25": {
       "code": "PMT.001.019.25",
       "id": "5dfbe4c6-94ba-4631-a6e6-e3b5a34815f4",
       "name": " Gabriel Awuah",
@@ -2153,7 +2149,6 @@
       "verificationHash": "114897c91755bc05ace68d7350842e9d53774f4ec48bbcdefffa9def6ff47793",
       "generatedAt": "2025-11-11T18:03:17.914037"
     },
-    
     "LRC.001.004.25": {
       "code": "LRC.001.004.25",
       "id": "9006aa13-56bb-4d7a-af04-d43142910209",
@@ -2395,8 +2390,8 @@
       "status": "valid",
       "verificationHash": "de4fab39d8689b6062fd4d2fa2c5c0f3c98a0c593f16c2261c88b13361cd1bd2",
       "generatedAt": "2025-11-18T16:22:39.382515"
-  },
-  "MEP.001.003.25": {
+    },
+    "MEP.001.003.25": {
       "code": "MEP.001.003.25",
       "id": "037de944-c6c9-4c8b-9901-31c6fcfccb3e",
       "name": "Seidu Mohammed",
@@ -2680,7 +2675,7 @@
       "verificationHash": "09abf9433b098f574c7f61eb5942677c71d058ced7786cb54f03e10ba2fe789b",
       "generatedAt": "2025-12-03T16:02:45.428575"
     },
-   "PMP.001.009.25": {
+    "PMP.001.009.25": {
       "code": "PMP.001.009.25",
       "id": "98c3bb2b-2c87-4ade-959e-38567565b864",
       "name": "WHITNEY OPPONG ANDOH",
@@ -2747,7 +2742,7 @@
       "verificationHash": "4f9160a9a7a5dd6f30df8988ae75ea3db495e8416b0de9d1b2e3cb9f6921e885",
       "generatedAt": "2025-12-03T18:13:33.527647"
     },
-     "PMT.001.020.25": {
+    "PMT.001.020.25": {
       "code": "PMT.001.020.25",
       "id": "68ba6510-26e3-4288-877d-c168a4b44a31",
       "name": " Abraham Horsu",
@@ -2780,7 +2775,7 @@
       "verificationHash": "9b949c2303d3549e22542f1c17e1575583a3a579b57289854d5fe0d5b72aa189",
       "generatedAt": "2025-12-05T14:34:00.459802"
     },
-     "PMT.001.021.25": {
+    "PMT.001.021.25": {
       "code": "PMT.001.021.25",
       "id": "c1f0440b-c5c3-455d-a6f8-cf5307c74688",
       "name": "EVELYN ATTOBRAH",
@@ -2797,7 +2792,7 @@
       "verificationHash": "1c924d9c37261a1fa3cc7beb67cd080edc43390d8d85dc409f98e54a051facb6",
       "generatedAt": "2025-12-07T13:32:38.907481"
     },
-     "ADV.002.001.25": {
+    "ADV.002.001.25": {
       "code": "ADV.002.001.25",
       "id": "3680a4e4-f99c-4710-ad92-d2e8a7d6e3e0",
       "name": "ABDUL SAMED ALHASSAN",
@@ -3205,7 +3200,7 @@
       "verificationHash": "6771fe3e149e494dc6bd80f291454af919be7f6a4f2380b239ceed72f5b37dbd",
       "generatedAt": "2025-12-22T16:27:19.427063"
     },
-     "DTE.001.001.25": {
+    "DTE.001.001.25": {
       "code": "DTE.001.001.25",
       "id": "b960b216-bd8e-4d80-bf55-36c7f1e1eb96",
       "name": "Phinehas Adenle",
@@ -3320,7 +3315,7 @@
       "status": "valid",
       "verificationHash": "17f575765cd16dd975a65b483c9df1d53c9825be2a6beaac26ea85bbb3eace96",
       "generatedAt": "2026-01-19T19:04:36.241351"
-    }, 
+    },
     "OWD.001.001.25": {
       "code": "OWD.001.001.25",
       "id": "57d9dc9d-44ec-4909-af5c-8ffc820c2e02",
@@ -3336,7 +3331,7 @@
       "status": "valid",
       "verificationHash": "d30435ee858680fc46e17dab53e7d51df8e84d2abd60f6067aa1e54d9d51cf9a",
       "generatedAt": "2025-12-25T13:30:52.848722"
-    }, 
+    },
     "MPO.001.001.25": {
       "code": "MPO.001.001.25",
       "id": "3170b732-c728-4138-881e-67941a9732f2",
@@ -3352,7 +3347,7 @@
       "status": "valid",
       "verificationHash": "0c9cc880806a620f8e2246b7e8b5c16a0be4646489cce57cc5566bcc245909dd",
       "generatedAt": "2025-12-25T13:43:20.008992"
-    }, 
+    },
     "DTE.001.003.25": {
       "code": "DTE.001.003.25",
       "id": "7d1d60dc-5ac9-4032-926d-3749cc62e1ef",
@@ -3912,7 +3907,126 @@
       "status": "valid",
       "verificationHash": "698453820a5b2c670add55e20174eb9ddf6f6014b8ab83fd778b25344f3f2a44",
       "generatedAt": "2026-01-21T17:13:10.889160"
+    },
+    "GHE.001.001.25": {
+      "code": "GHE.001.001.25",
+      "id": "b0b1fb45-4954-4e89-a010-5fafc23200e1",
+      "name": "AMANA KOKO Lysiane Miclaire",
+      "email": "amana.miclaire@lusoglobalmining.com",
+      "grade": "PASS",
+      "issueDate": "January 29, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 29, 2027",
+      "pdfPath": "certificates/b0b1fb45-4954-4e89-a010-5fafc23200e1_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.001.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/b0b1fb45-4954-4e89-a010-5fafc23200e1_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "51f11120f998524a889bf04c02c4102c709736eee0ec7fc2c83e1b1afd2fb8f1",
+      "generatedAt": "2026-01-29T20:05:52.052061"
+    },
+    "GHE.001.002.25": {
+      "code": "GHE.001.002.25",
+      "id": "647fd8fa-54be-486d-943e-91501ff7d586",
+      "name": "ASHU JONES EGBE",
+      "email": "ashu.jones@lusoglobalmining.com",
+      "grade": "DISTINCTION",
+      "issueDate": "January 29, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 29, 2027",
+      "pdfPath": "certificates/647fd8fa-54be-486d-943e-91501ff7d586_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.002.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/647fd8fa-54be-486d-943e-91501ff7d586_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "d60e9c919f9a45d742858f6bf0ad50f2e2ee5710f56fa75ff05b3881ee476ff0",
+      "generatedAt": "2026-01-29T20:05:52.561168"
+    },
+    "GHE.001.003.25": {
+      "code": "GHE.001.003.25",
+      "id": "17355796-fb30-494d-a6d8-20df0eb5a3aa",
+      "name": "Edgar Domingos Martinho Nunes",
+      "email": "edgardnunes14@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "January 29, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 29, 2027",
+      "pdfPath": "certificates/17355796-fb30-494d-a6d8-20df0eb5a3aa_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.003.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/17355796-fb30-494d-a6d8-20df0eb5a3aa_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "7d9c9ddad803bba2bc701615e66f551eb28ee1f06c949d63cc103b0aeee6cbe8",
+      "generatedAt": "2026-01-29T20:05:53.056918"
+    },
+    "GHE.001.004.25": {
+      "code": "GHE.001.004.25",
+      "id": "4229ec9d-8379-4b9c-9331-21ef6f35bb32",
+      "name": "Mumuni Eliasu",
+      "email": "eliasumumuni1@gmail.com",
+      "grade": "PASS",
+      "issueDate": "January 29, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 29, 2027",
+      "pdfPath": "certificates/4229ec9d-8379-4b9c-9331-21ef6f35bb32_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.004.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/4229ec9d-8379-4b9c-9331-21ef6f35bb32_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "323240204290bf379259c867db07a1ee04ecb6d74aa313c084c2466eb8cf09d2",
+      "generatedAt": "2026-01-29T20:05:53.702579"
+    },
+    "GHE.001.005.25": {
+      "code": "GHE.001.005.25",
+      "id": "708edacc-d501-4628-85d9-eb2620f7ae44",
+      "name": "Ferguson Kwame Torvor",
+      "email": "fergusontorvor@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "January 29, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 29, 2027",
+      "pdfPath": "certificates/708edacc-d501-4628-85d9-eb2620f7ae44_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.005.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/708edacc-d501-4628-85d9-eb2620f7ae44_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "905d3713715d3146f0b6942f610aca8d0e323ee5f782de0fd7ad9202d61567a4",
+      "generatedAt": "2026-01-29T20:05:54.126357"
+    },
+    "GHE.001.006.25": {
+      "code": "GHE.001.006.25",
+      "id": "f8c924bc-b331-4482-845f-f981ac364400",
+      "name": "KENGNE TAYOU NA\u00cfM MAXENCE ",
+      "email": "kengne.maxence@lusoglobalmining.com",
+      "grade": "DISTINCTION",
+      "issueDate": "January 29, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 29, 2027",
+      "pdfPath": "certificates/f8c924bc-b331-4482-845f-f981ac364400_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.006.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/f8c924bc-b331-4482-845f-f981ac364400_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "f48ad05c843d0d273de003eef78cd081c5f715168c4bccae4247531221b0020f",
+      "generatedAt": "2026-01-29T20:05:54.628037"
+    },
+    "GHE.001.007.25": {
+      "code": "GHE.001.007.25",
+      "id": "ebd4666f-9c31-413c-8291-8f9e066d0a52",
+      "name": "OTITI K\u00e9vin Junior",
+      "email": "otiti.junior@lusoglobalmining.com",
+      "grade": "PASS",
+      "issueDate": "January 29, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "January 29, 2027",
+      "pdfPath": "certificates/ebd4666f-9c31-413c-8291-8f9e066d0a52_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.007.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/ebd4666f-9c31-413c-8291-8f9e066d0a52_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "2918127573b26a04d4bd44d26ae2e20fd129ad94303aa6a519c1c20094317e3d",
+      "generatedAt": "2026-01-29T20:05:55.386490"
     }
-    
-  }
+  },
+  "codeFormat": "GHE.001.XXX.26"
 }
