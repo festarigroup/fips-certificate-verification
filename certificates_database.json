@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-29T23:50:44.522482",
+  "lastUpdated": "2026-01-29T23:57:59.644848",
   "totalCertificates": 246,
   "certificates": {
     "FIPS-WB01-EABEEC": {
@@ -3910,7 +3910,7 @@
     },
     "GHE.001.001.25": {
       "code": "GHE.001.001.25",
-      "id": "9228f635-04c8-4174-bbfb-0a2ea181a53a",
+      "id": "470669b6-865b-4625-a756-536247246d26",
       "name": "AMANA KOKO Lysiane Miclaire",
       "email": "amana.miclaire@lusoglobalmining.com",
       "grade": "PASS",
@@ -3918,16 +3918,16 @@
       "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
       "issuer": "Festari Institute of Professional Studies",
       "validUntil": "January 29, 2027",
-      "pdfPath": "certificates/9228f635-04c8-4174-bbfb-0a2ea181a53a_certificate.pdf",
+      "pdfPath": "certificates/470669b6-865b-4625-a756-536247246d26_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.001.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/9228f635-04c8-4174-bbfb-0a2ea181a53a_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/470669b6-865b-4625-a756-536247246d26_certificate.pdf",
       "status": "valid",
-      "verificationHash": "323f958313736831f81756684b07579d3865504257f790807661e8031e8f3666",
-      "generatedAt": "2026-01-29T23:49:13.467934"
+      "verificationHash": "6519072ca80403f521746f856c740739fb2c9675ff6eeed8b0ebae5b774da638",
+      "generatedAt": "2026-01-29T23:57:01.227082"
     },
     "GHE.001.002.25": {
       "code": "GHE.001.002.25",
-      "id": "40ed28cd-821e-4f1d-b56e-0ea1daac48cc",
+      "id": "b4707203-dbe1-415e-b979-fbc07b7ac956",
       "name": "ASHU JONES EGBE",
       "email": "ashu.jones@lusoglobalmining.com",
       "grade": "DISTINCTION",
@@ -3935,16 +3935,16 @@
       "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
       "issuer": "Festari Institute of Professional Studies",
       "validUntil": "January 29, 2027",
-      "pdfPath": "certificates/40ed28cd-821e-4f1d-b56e-0ea1daac48cc_certificate.pdf",
+      "pdfPath": "certificates/b4707203-dbe1-415e-b979-fbc07b7ac956_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.002.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/40ed28cd-821e-4f1d-b56e-0ea1daac48cc_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/b4707203-dbe1-415e-b979-fbc07b7ac956_certificate.pdf",
       "status": "valid",
-      "verificationHash": "c38dae147508df3309a91b9e4cc3c8d1569956fdc63fd3cd4cc67720bf90dc5a",
-      "generatedAt": "2026-01-29T23:49:13.835495"
+      "verificationHash": "7717cbcc6c5aef976eaf66d3c96412f4f3a1f36cb22b3c4df261221206455036",
+      "generatedAt": "2026-01-29T23:57:01.831725"
     },
     "GHE.001.003.25": {
       "code": "GHE.001.003.25",
-      "id": "fe5fbd84-3c2e-44b0-bc26-4c9bd734b2ff",
+      "id": "c93b1aa8-de58-414c-a5a9-8de326bf3952",
       "name": "Edgar Domingos Martinho Nunes",
       "email": "edgardnunes14@gmail.com",
       "grade": "DISTINCTION",
@@ -3952,16 +3952,16 @@
       "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
       "issuer": "Festari Institute of Professional Studies",
       "validUntil": "January 29, 2027",
-      "pdfPath": "certificates/fe5fbd84-3c2e-44b0-bc26-4c9bd734b2ff_certificate.pdf",
+      "pdfPath": "certificates/c93b1aa8-de58-414c-a5a9-8de326bf3952_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.003.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/fe5fbd84-3c2e-44b0-bc26-4c9bd734b2ff_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/c93b1aa8-de58-414c-a5a9-8de326bf3952_certificate.pdf",
       "status": "valid",
-      "verificationHash": "b640d03baf63db4ab8bcc191c5fd274546a67c29b82593af16a0f379cf9d4658",
-      "generatedAt": "2026-01-29T23:49:14.268821"
+      "verificationHash": "15335c21a50498e9cedd47d63b3bdb8ed4ec71ed1ba1c07117b5b364360a6889",
+      "generatedAt": "2026-01-29T23:57:02.765848"
     },
     "GHE.001.004.25": {
       "code": "GHE.001.004.25",
-      "id": "99761f7b-e747-4cb2-afc8-0f3d5fc6b00f",
+      "id": "e8dc8225-657a-4519-a24b-1bdaafd8c52a",
       "name": "Mumuni Eliasu",
       "email": "eliasumumuni1@gmail.com",
       "grade": "PASS",
@@ -3969,16 +3969,16 @@
       "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
       "issuer": "Festari Institute of Professional Studies",
       "validUntil": "January 29, 2027",
-      "pdfPath": "certificates/99761f7b-e747-4cb2-afc8-0f3d5fc6b00f_certificate.pdf",
+      "pdfPath": "certificates/e8dc8225-657a-4519-a24b-1bdaafd8c52a_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.004.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/99761f7b-e747-4cb2-afc8-0f3d5fc6b00f_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/e8dc8225-657a-4519-a24b-1bdaafd8c52a_certificate.pdf",
       "status": "valid",
-      "verificationHash": "4fb9282ac8ef24e956f189de33599d25d104f8fbf95cee6a26838a4d5e0be9b6",
-      "generatedAt": "2026-01-29T23:49:14.781220"
+      "verificationHash": "773c892fd87bdda4ad83bde93d359c1949a40102844a334c3d4b99ed144b1176",
+      "generatedAt": "2026-01-29T23:57:03.313955"
     },
     "GHE.001.005.25": {
       "code": "GHE.001.005.25",
-      "id": "7521698f-b52c-485e-8274-d373f8ab35dc",
+      "id": "b767aa25-1595-4c2c-99ed-a5ab3da2ed38",
       "name": "Ferguson Kwame Torvor",
       "email": "fergusontorvor@gmail.com",
       "grade": "DISTINCTION",
@@ -3986,16 +3986,16 @@
       "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
       "issuer": "Festari Institute of Professional Studies",
       "validUntil": "January 29, 2027",
-      "pdfPath": "certificates/7521698f-b52c-485e-8274-d373f8ab35dc_certificate.pdf",
+      "pdfPath": "certificates/b767aa25-1595-4c2c-99ed-a5ab3da2ed38_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.005.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/7521698f-b52c-485e-8274-d373f8ab35dc_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/b767aa25-1595-4c2c-99ed-a5ab3da2ed38_certificate.pdf",
       "status": "valid",
-      "verificationHash": "2d812b04eb839a3dbe01a13a93f0ec48bd8dc51f2b52da4ab538a6be73248215",
-      "generatedAt": "2026-01-29T23:49:15.384992"
+      "verificationHash": "5ed7ce27a6092ccd81608718efc10f7b283cf54192553c7ba2f55ab96472c6ae",
+      "generatedAt": "2026-01-29T23:57:03.825482"
     },
     "GHE.001.006.25": {
       "code": "GHE.001.006.25",
-      "id": "03de1361-dfd9-4bc1-b1d7-4af27ec69939",
+      "id": "c1be09b7-7ca9-4b3e-b6a0-714a5abccda2",
       "name": "KENGNE TAYOU NA\u00cfM MAXENCE ",
       "email": "kengne.maxence@lusoglobalmining.com",
       "grade": "DISTINCTION",
@@ -4003,16 +4003,16 @@
       "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
       "issuer": "Festari Institute of Professional Studies",
       "validUntil": "January 29, 2027",
-      "pdfPath": "certificates/03de1361-dfd9-4bc1-b1d7-4af27ec69939_certificate.pdf",
+      "pdfPath": "certificates/c1be09b7-7ca9-4b3e-b6a0-714a5abccda2_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.006.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/03de1361-dfd9-4bc1-b1d7-4af27ec69939_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/c1be09b7-7ca9-4b3e-b6a0-714a5abccda2_certificate.pdf",
       "status": "valid",
-      "verificationHash": "816955088cb5801e2f720c671e4b544a51d543004cb3f71a799722e062b86c3d",
-      "generatedAt": "2026-01-29T23:49:15.847853"
+      "verificationHash": "4b0be590954a70023c9d6ce5f94edef97a5eb677b8faf38c51604644449dbcc6",
+      "generatedAt": "2026-01-29T23:57:04.500635"
     },
     "GHE.001.007.25": {
       "code": "GHE.001.007.25",
-      "id": "f6d40742-26ec-4619-bc04-7c44a7bf0a43",
+      "id": "c4e7bb24-d8c0-450d-94ae-09dcdf67308e",
       "name": "OTITI K\u00e9vin Junior",
       "email": "otiti.junior@lusoglobalmining.com",
       "grade": "PASS",
@@ -4020,12 +4020,12 @@
       "event": "PROFESSIONAL CERTIFICATE IN MINE EXCAVATION & MATERIALS TRANSPORTATION",
       "issuer": "Festari Institute of Professional Studies",
       "validUntil": "January 29, 2027",
-      "pdfPath": "certificates/f6d40742-26ec-4619-bc04-7c44a7bf0a43_certificate.pdf",
+      "pdfPath": "certificates/c4e7bb24-d8c0-450d-94ae-09dcdf67308e_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=GHE.001.007.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/f6d40742-26ec-4619-bc04-7c44a7bf0a43_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/c4e7bb24-d8c0-450d-94ae-09dcdf67308e_certificate.pdf",
       "status": "valid",
-      "verificationHash": "a0533587a9bb78fe19f2b83c82406a034de10f12dbf4481ec7008a6c8503f51f",
-      "generatedAt": "2026-01-29T23:49:16.360374"
+      "verificationHash": "99ad3afb5485a820d7ebfd7c7f07fdbe39abe03681971fe22dd72dc7d2999344",
+      "generatedAt": "2026-01-29T23:57:05.097459"
     }
   },
   "codeFormat": "GHE.001.XXX.26"
