@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-30T02:15:05.968793",
+  "lastUpdated": "2026-01-31T17:05:05.500279",
   "totalCertificates": 246,
   "certificates": {
     "FIPS-WB01-EABEEC": {
@@ -3962,7 +3962,71 @@
       "status": "valid",
       "verificationHash": "510752754d43afe3ebbbd7ca008dc52e4aa16c775ac77f78f120eef4ad20fad4",
       "generatedAt": "2026-01-30T02:14:36.009312"
+    },
+    "PME.001.001.26": {
+      "code": "PME.001.001.26",
+      "id": "8d3771b7-7832-4b24-9c7a-3d8dbb11dab2",
+      "name": "AMAN COBLAN GLORIA",
+      "email": "coblang64@gmail.com",
+      "issueDate": "January 31, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "January 31, 2027",
+      "pdfPath": "certificates/8d3771b7-7832-4b24-9c7a-3d8dbb11dab2_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PME.001.001.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/8d3771b7-7832-4b24-9c7a-3d8dbb11dab2_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "37f5796c4df76d9a75dde63093dbf52c2453f489affb8b6919aa671e2002d955",
+      "generatedAt": "2026-01-31T17:04:29.062126"
+    },
+    "PME.001.002.26": {
+      "code": "PME.001.002.26",
+      "id": "39d60aec-4a7b-4dc0-b372-72a68bc2b368",
+      "name": "Bernard Gyamfi Osei",
+      "email": "bernardoseei@gmail.com",
+      "issueDate": "January 31, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "January 31, 2027",
+      "pdfPath": "certificates/39d60aec-4a7b-4dc0-b372-72a68bc2b368_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PME.001.002.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/39d60aec-4a7b-4dc0-b372-72a68bc2b368_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "05acd070504bdc84e0fbde4675212286988408028b92e32b387a9812f99c9161",
+      "generatedAt": "2026-01-31T17:04:29.223678"
+    },
+    "PME.001.003.26": {
+      "code": "PME.001.003.26",
+      "id": "f652cb87-8419-4086-bdca-f46254d2bdb6",
+      "name": "FELICIA SARPONG DOMPREH",
+      "email": "domsarp@gmail.com",
+      "issueDate": "January 31, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "January 31, 2027",
+      "pdfPath": "certificates/f652cb87-8419-4086-bdca-f46254d2bdb6_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PME.001.003.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/f652cb87-8419-4086-bdca-f46254d2bdb6_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "7ac6529053565e263a7e8ea6fb729498308309bc530717b2fa70a693eee75ac2",
+      "generatedAt": "2026-01-31T17:04:29.386879"
+    },
+    "PME.001.004.26": {
+      "code": "PME.001.004.26",
+      "id": "e52a3961-9649-48bf-ab54-3b44bb3e5fe0",
+      "name": "SEM MENSAH",
+      "email": "semnayas@gmail.com",
+      "issueDate": "January 31, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "January 31, 2027",
+      "pdfPath": "certificates/e52a3961-9649-48bf-ab54-3b44bb3e5fe0_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PME.001.004.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/e52a3961-9649-48bf-ab54-3b44bb3e5fe0_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "9d006efa0361d02026830bd14c41389d233d2107e96339c72017096901f1bce9",
+      "generatedAt": "2026-01-31T17:04:29.537091"
     }
   },
-  "codeFormat": "GHE.001.XXX.26"
+  "codeFormat": "PME.001.XXX.25"
 }
