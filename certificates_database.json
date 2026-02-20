@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-20T18:02:12.284188",
+  "lastUpdated": "2026-02-20T18:19:07.958812",
   "totalCertificates": 256,
   "certificates": {
     "FIPS-WB01-EABEEC": {
@@ -4181,19 +4181,19 @@
     },
     "DBO.001.007.26": {
       "code": "DBO.001.007.26",
-      "id": "d0ce4174-8ad9-4469-8f76-0e53467a8d16",
-      "name": "Shadrack Gyawu",
-      "email": "gyawushadrack@gmail.com",
+      "id": "54dadf85-8699-4b9d-80bb-c4feb4539c69",
+      "name": "Bernard Gyamfi Osei",
+      "email": "bernardoseei@gmail.com",
       "issueDate": "February 20, 2026",
-      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "event": "MINE PLANNING & DESIGN",
       "issuer": "FIPS/UMAT",
       "validUntil": "February 20, 2027",
-      "pdfPath": "certificates/d0ce4174-8ad9-4469-8f76-0e53467a8d16_certificate.pdf",
+      "pdfPath": "certificates/54dadf85-8699-4b9d-80bb-c4feb4539c69_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=DBO.001.007.26",
-      "downloadUrl": "https://verify.fips.ac/certificates/d0ce4174-8ad9-4469-8f76-0e53467a8d16_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/54dadf85-8699-4b9d-80bb-c4feb4539c69_certificate.pdf",
       "status": "valid",
-      "verificationHash": "d5ea927b3ef353abeb03923be2e2bda93a8bbc2e69257789f6934fcaf33ab578",
-      "generatedAt": "2026-02-20T18:01:43.465628"
+      "verificationHash": "0ffcf4704e3d1880debc39060f8a6c258d65e32212f97eda7752dce21f94e67a",
+      "generatedAt": "2026-02-20T18:18:35.378340"
     }
   },
   "codeFormat": "DBO.001.XXX.25"
