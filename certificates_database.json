@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-13T20:13:30.269443",
-  "totalCertificates": 254,
+  "lastUpdated": "2026-02-20T16:25:52.368808",
+  "totalCertificates": 255,
   "certificates": {
     "FIPS-WB01-EABEEC": {
       "code": "FIPS-WB01-EABEEC",
@@ -4162,7 +4162,23 @@
       "status": "valid",
       "verificationHash": "52c6838d007fbfd04503096c625a8ee83606fcdc3f7315cdec1e1df70def5b0c",
       "generatedAt": "2026-02-13T20:12:23.237424"
+    },
+    "HSE.001.007.26": {
+      "code": "HSE.001.007.26",
+      "id": "5f45e394-ed64-4de1-aeed-84870ff8956e",
+      "name": "Bernard Gyamfi Osei",
+      "email": "bernardoseei@gmail.com",
+      "issueDate": "February 20, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "February 20, 2027",
+      "pdfPath": "certificates/5f45e394-ed64-4de1-aeed-84870ff8956e_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=HSE.001.007.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/5f45e394-ed64-4de1-aeed-84870ff8956e_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "82843e113e2dd2c5eda1589c9c99d881471cb48e0a03b46fea794fdb795071cb",
+      "generatedAt": "2026-02-20T16:18:22.539071"
     }
   },
-  "codeFormat": "MSM.001.XXX.26"
+  "codeFormat": "HSE.001.XXX.25"
 }
