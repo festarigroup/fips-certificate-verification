@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-20T18:32:59.947662",
-  "totalCertificates": 257,
+  "lastUpdated": "2026-02-23T13:48:27.902741",
+  "totalCertificates": 258,
   "certificates": {
     "FIPS-WB01-EABEEC": {
       "code": "FIPS-WB01-EABEEC",
@@ -4210,7 +4210,23 @@
       "status": "valid",
       "verificationHash": "cecd4d9b189f0620919b81c81af828403f82ef8ce9dec40714e68ca2fc9f4d5d",
       "generatedAt": "2026-02-20T18:32:29.248840"
+    },
+    "DBT.001.052.26": {
+      "code": "DBT.001.052.26",
+      "id": "5f318b49-efa5-4878-acbe-1894fdbe633e",
+      "name": "Debrah Eric ",
+      "email": "Email: ericdebrah451@gmail.com",
+      "issueDate": "February 23, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "February 23, 2027",
+      "pdfPath": "certificates/5f318b49-efa5-4878-acbe-1894fdbe633e_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DBT.001.052.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/5f318b49-efa5-4878-acbe-1894fdbe633e_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "157fd7420f316a32e75797e5c151dfdcd2da18e4f615e9ca2a9b65c06d52a137",
+      "generatedAt": "2026-02-23T13:47:44.990406"
     }
   },
-  "codeFormat": "HSE.001.XXX.25"
+  "codeFormat": "DBT.001.XXX.25"
 }
