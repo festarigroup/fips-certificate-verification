@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-01T20:41:13.096765",
-  "totalCertificates": 262,
+  "lastUpdated": "2026-03-01T20:49:12.766274",
+  "totalCertificates": 263,
   "certificates": {
     "FIPS-WB01-EABEEC": {
       "code": "FIPS-WB01-EABEEC",
@@ -4227,38 +4227,6 @@
       "verificationHash": "157fd7420f316a32e75797e5c151dfdcd2da18e4f615e9ca2a9b65c06d52a137",
       "generatedAt": "2026-02-23T13:47:44.990406"
     },
-    "EXBI.001.001.26": {
-      "code": "EXBI.001.001.26",
-      "id": "ea71ee18-67a2-4f43-93e3-02dc9bbc8aa6",
-      "name": "Akyeampong Georgina Yeboah",
-      "email": "ginayeboah4065a@gmail.com",
-      "issueDate": "March 01, 2026",
-      "event": "MINE PLANNING & DESIGN",
-      "issuer": "FIPS/UMAT",
-      "validUntil": "March 01, 2027",
-      "pdfPath": "certificates/ea71ee18-67a2-4f43-93e3-02dc9bbc8aa6_certificate.pdf",
-      "verificationUrl": "https://verify.fips.ac/index.html?code=EXBI.001.001.26",
-      "downloadUrl": "https://verify.fips.ac/certificates/ea71ee18-67a2-4f43-93e3-02dc9bbc8aa6_certificate.pdf",
-      "status": "valid",
-      "verificationHash": "c619623880b5c5c29a203c98ec16a2d5f684d50b7a64d22a50478ed46d79fae9",
-      "generatedAt": "2026-03-01T20:39:10.207314"
-    },
-    "EXBI.001.002.26": {
-      "code": "EXBI.001.002.26",
-      "id": "d3801290-fdaa-42c1-b559-c514de5cd178",
-      "name": "Alhusein Ussif",
-      "email": "alhuseinussif@gmail.com",
-      "issueDate": "March 01, 2026",
-      "event": "MINE PLANNING & DESIGN",
-      "issuer": "FIPS/UMAT",
-      "validUntil": "March 01, 2027",
-      "pdfPath": "certificates/d3801290-fdaa-42c1-b559-c514de5cd178_certificate.pdf",
-      "verificationUrl": "https://verify.fips.ac/index.html?code=EXBI.001.002.26",
-      "downloadUrl": "https://verify.fips.ac/certificates/d3801290-fdaa-42c1-b559-c514de5cd178_certificate.pdf",
-      "status": "valid",
-      "verificationHash": "bdd7eb3b23abc1c5dff39361a4f603ac7b9ebcc823ddb8f51ecff1ce7744f3e7",
-      "generatedAt": "2026-03-01T20:39:10.441483"
-    },
     "EXBI.001.003.26": {
       "code": "EXBI.001.003.26",
       "id": "2472ab99-e07e-424c-84e1-5ca8e2947ad6",
@@ -4275,22 +4243,70 @@
       "verificationHash": "023c4acd7a485fd68b72c628cf4676b61ca3f0ed7f568aa38af5e9fac55ee752",
       "generatedAt": "2026-03-01T20:39:10.626000"
     },
-    "EXBI.001.004.26": {
-      "code": "EXBI.001.004.26",
-      "id": "9c13aa8b-fa17-42c9-854c-16cc6f1c68cc",
+    "EXB.001.001.26": {
+      "code": "EXB.001.001.26",
+      "id": "ca0bf345-cb1a-4528-b341-95b58824cd8f",
+      "name": "Akyeampong Georgina Yeboah",
+      "email": "ginayeboah4065a@gmail.com",
+      "issueDate": "March 01, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "March 01, 2027",
+      "pdfPath": "certificates/ca0bf345-cb1a-4528-b341-95b58824cd8f_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EXB.001.001.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/ca0bf345-cb1a-4528-b341-95b58824cd8f_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "d805a8430d77e8eb950237a527029c25a7e8be356db85359516a87b9577a1683",
+      "generatedAt": "2026-03-01T20:48:03.661594"
+    },
+    "EXB.001.002.26": {
+      "code": "EXB.001.002.26",
+      "id": "a3bd8fcb-3f60-46a3-bfe5-c744aa8ba8aa",
+      "name": "Alhusein Ussif",
+      "email": "alhuseinussif@gmail.com",
+      "issueDate": "March 01, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "March 01, 2027",
+      "pdfPath": "certificates/a3bd8fcb-3f60-46a3-bfe5-c744aa8ba8aa_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EXB.001.002.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/a3bd8fcb-3f60-46a3-bfe5-c744aa8ba8aa_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "853f4c55b190a933179048f354ae09e6bfa96c4c73c713a17f1266019e74c295",
+      "generatedAt": "2026-03-01T20:48:03.912820"
+    },
+    "EXB.001.003.26": {
+      "code": "EXB.001.003.26",
+      "id": "3a9fd122-8816-467a-9219-ac98b9fccf6c",
+      "name": "Pascaline Obeng Koomson",
+      "email": "koomsonpascaline@gmail.com",
+      "issueDate": "March 01, 2026",
+      "event": "MINE PLANNING & DESIGN",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "March 01, 2027",
+      "pdfPath": "certificates/3a9fd122-8816-467a-9219-ac98b9fccf6c_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EXB.001.003.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/3a9fd122-8816-467a-9219-ac98b9fccf6c_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "26654d3f1f86121295b57dcb89d2701f9574bb690b165f6c57a7a99dd09c480a",
+      "generatedAt": "2026-03-01T20:48:04.149097"
+    },
+    "EXB.001.004.26": {
+      "code": "EXB.001.004.26",
+      "id": "ecbf9831-f0fb-4f67-a9c3-dc0bb81ddf38",
       "name": "Priscilla  Otoo Ekua Bosua",
       "email": "bosuaotoo19@gmail.com",
       "issueDate": "March 01, 2026",
       "event": "MINE PLANNING & DESIGN",
       "issuer": "FIPS/UMAT",
       "validUntil": "March 01, 2027",
-      "pdfPath": "certificates/9c13aa8b-fa17-42c9-854c-16cc6f1c68cc_certificate.pdf",
-      "verificationUrl": "https://verify.fips.ac/index.html?code=EXBI.001.004.26",
-      "downloadUrl": "https://verify.fips.ac/certificates/9c13aa8b-fa17-42c9-854c-16cc6f1c68cc_certificate.pdf",
+      "pdfPath": "certificates/ecbf9831-f0fb-4f67-a9c3-dc0bb81ddf38_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EXB.001.004.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/ecbf9831-f0fb-4f67-a9c3-dc0bb81ddf38_certificate.pdf",
       "status": "valid",
-      "verificationHash": "380d62456fe09f3196fef8d565792922f77a2c49d7f34d5e682252b4f18c86c2",
-      "generatedAt": "2026-03-01T20:39:10.809496"
+      "verificationHash": "551c02cc1149d651f2f0636bf970b3f28771932fdb3260eae25f25e1f043a198",
+      "generatedAt": "2026-03-01T20:48:04.388590"
     }
   },
-  "codeFormat": "EXBI.001.XXX.25"
+  "codeFormat": "EXB.001.XXX.25"
 }
