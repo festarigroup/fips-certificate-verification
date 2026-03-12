@@ -5331,6 +5331,38 @@
       "status": "valid",
       "verificationHash": "02c39ec28eb6e6ed06105bd7a3deb4b30ac1e4946c6b3cf47478f6dbe4bc2310",
       "generatedAt": "2026-03-06T19:56:54.190683"
+    },
+    "PBM.001.001.26": {
+      "code": "PBM.001.001.26",
+      "id": "83df5efc-689a-41d6-a582-f068663d45f9",
+      "name": "ASHIARA KELVIN JOHN",
+      "email": "kelvash@gmail.com",
+      "issueDate": "March 12, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE PLANING AND DESIGN TECHNOLOGY",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "March 12, 2027",
+      "pdfPath": "certificates/83df5efc-689a-41d6-a582-f068663d45f9_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PBM.001.001.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/83df5efc-689a-41d6-a582-f068663d45f9_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "e7c54ac9e6b8200019ee1feb963b99d89d72875dbe9e4c13415397269fb84b4c",
+      "generatedAt": "2026-03-12T16:35:00.705864"
+    },
+    "PSM.001.001.26": {
+      "code": "PSM.001.001.26",
+      "id": "ede969b9-8117-46dd-a485-498f3c6fcefb",
+      "name": "ASHIARA KELVIN JOHN",
+      "email": "kelvash@gmail.com",
+      "issueDate": "March 12, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE PLANING AND DESIGN TECHNOLOGY",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "March 12, 2027",
+      "pdfPath": "certificates/ede969b9-8117-46dd-a485-498f3c6fcefb_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PSM.001.001.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/ede969b9-8117-46dd-a485-498f3c6fcefb_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "fd50916528e4c64cd9c9e70fb949f2131a85197620d5519d040948ef2798618d",
+      "generatedAt": "2026-03-12T16:52:09.893889"
     }
   },
   "codeFormat": "EXB.001.XXX.25"
