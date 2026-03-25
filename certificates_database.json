@@ -5363,6 +5363,22 @@
       "status": "valid",
       "verificationHash": "fd50916528e4c64cd9c9e70fb949f2131a85197620d5519d040948ef2798618d",
       "generatedAt": "2026-03-12T16:52:09.893889"
+    },
+    "DSB.001.001.26": {
+      "code": "DSB.001.001.26",
+      "id": "2a7fa95f-dcdc-451e-9bde-42f627eb51ae",
+      "name": "Tetteh Andy Bilson",
+      "email": "tettehbilson2@gmail.com",
+      "issueDate": "March 25, 2026",
+      "event": "PROFESSIONAL CERTIFICATEINDATA SCIENCE AND BUSINESS ANALYTICS",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "March 25, 2027",
+      "pdfPath": "certificates/2a7fa95f-dcdc-451e-9bde-42f627eb51ae_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DSB.001.001.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/2a7fa95f-dcdc-451e-9bde-42f627eb51ae_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "c8cb836489af6cebeaff772c8f86fb428e578900389ddf0ac520289a60849ee9",
+      "generatedAt": "2026-03-25T12:47:19.495283"
     }
   },
   "codeFormat": "EXB.001.XXX.25"
