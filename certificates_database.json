@@ -5459,7 +5459,24 @@
       "status": "valid",
       "verificationHash": "cd64b4381cb304a5b63a29a86ca75c32b06f2bc20384225a14169425a0812ac7",
       "generatedAt": "2026-04-02T04:30:08.192609"
+    },
+    "PBM.001.002.26": {
+      "code": "PBM.001.002.26",
+      "id": "154acbd1-1464-4433-bf4a-694c93c21a92",
+      "name": "Panyin Benjamin Ebo",
+      "email": "panyinbenjamin6@gmail.com",
+      "issueDate": "April 02, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE PLANING AND DESIGN TECHNOLOGY",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "April 02, 2027",
+      "pdfPath": "certificates/154acbd1-1464-4433-bf4a-694c93c21a92_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PBM.001.002.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/154acbd1-1464-4433-bf4a-694c93c21a92_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "98e2732c144b00c90a31dbe6105cb046f1ff051dc3c862a93f2cbe96c0ab1f1c",
+      "generatedAt": "2026-04-02T23:00:51.683116"
     }
+    
   },
   "codeFormat": "EXB.001.XXX.25"
 }
