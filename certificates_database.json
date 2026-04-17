@@ -5475,8 +5475,24 @@
       "status": "valid",
       "verificationHash": "98e2732c144b00c90a31dbe6105cb046f1ff051dc3c862a93f2cbe96c0ab1f1c",
       "generatedAt": "2026-04-02T23:00:51.683116"
+    },
+    "PMT.001.023.25": {
+      "code": "PMT.001.023.25",
+      "id": "4172566a-469e-4792-a2cc-ad8195c1a281",
+      "name": "Cosmos Dadzie Jnr.",
+      "email": "dadziecosmosjunior9321@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "April 17, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "April 17, 2027",
+      "pdfPath": "certificates/4172566a-469e-4792-a2cc-ad8195c1a281_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.023.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/4172566a-469e-4792-a2cc-ad8195c1a281_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "6eca9e95012c0df6992b13661f44a3eb3368011aea9aa501e6e6b41dd8aa4988",
+      "generatedAt": "2026-04-17T18:25:05.157887"
     }
-    
   },
   "codeFormat": "EXB.001.XXX.25"
 }
