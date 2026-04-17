@@ -5492,6 +5492,23 @@
       "status": "valid",
       "verificationHash": "6eca9e95012c0df6992b13661f44a3eb3368011aea9aa501e6e6b41dd8aa4988",
       "generatedAt": "2026-04-17T18:25:05.157887"
+    },
+     "PMP.001.012.25": {
+      "code": "PMP.001.012.25",
+      "id": "74f06a41-e6f9-4fa9-b797-97acbaaeb2d1",
+      "name": "Amara Moro Sidibe",
+      "email": "morosidibe0281@gmail.com",
+      "grade": "PASS",
+      "issueDate": "April 17, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE PLANNING AND DESIGN TECHNOLOGY",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "April 17, 2027",
+      "pdfPath": "certificates/74f06a41-e6f9-4fa9-b797-97acbaaeb2d1_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMP.001.012.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/74f06a41-e6f9-4fa9-b797-97acbaaeb2d1_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "3afba5ba8ed18ef7663e52f2a1dc2b7e30882d7e3ac45061ea2b0f4b62bf74fe",
+      "generatedAt": "2026-04-17T21:09:25.167972"
     }
   },
   "codeFormat": "EXB.001.XXX.25"
