@@ -5509,7 +5509,39 @@
       "status": "valid",
       "verificationHash": "3afba5ba8ed18ef7663e52f2a1dc2b7e30882d7e3ac45061ea2b0f4b62bf74fe",
       "generatedAt": "2026-04-17T21:09:25.167972"
+    }, "EXB.001.005.26": {
+      "code": "EXB.001.005.26",
+      "id": "5820f544-c398-4176-9245-df7e01fd8b89",
+      "name": "Breadan Bondanyi",
+      "email": "breadanbondanyi1@gmail.com",
+      "issueDate": "April 23, 2026",
+      "event": "EXCEL & POWER BI MASTERY",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "April 23, 2027",
+      "pdfPath": "certificates/5820f544-c398-4176-9245-df7e01fd8b89_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EXB.001.005.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/5820f544-c398-4176-9245-df7e01fd8b89_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "d604bcbdc4b1d04a288c4f8daade788e29bf81ea8cc671bf6b5f0431623988ea",
+      "generatedAt": "2026-04-23T17:56:25.915494"
+    },
+    "EXB.001.006.26": {
+      "code": "EXB.001.006.26",
+      "id": "97c792c6-df82-4b9d-9280-98d17cbeed7f",
+      "name": "Midson Regina",
+      "email": "reginamidson20@gmail.com",
+      "issueDate": "April 23, 2026",
+      "event": "EXCEL & POWER BI MASTERY",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "April 23, 2027",
+      "pdfPath": "certificates/97c792c6-df82-4b9d-9280-98d17cbeed7f_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EXB.001.006.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/97c792c6-df82-4b9d-9280-98d17cbeed7f_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "3503c8666d2d3587d7a53581837c7d275020f630f76570a69abeaa2fc231a29d",
+      "generatedAt": "2026-04-23T17:56:26.148480"
     }
+
   },
   "codeFormat": "EXB.001.XXX.25"
 }
