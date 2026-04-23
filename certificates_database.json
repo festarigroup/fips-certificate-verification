@@ -5540,6 +5540,22 @@
       "status": "valid",
       "verificationHash": "3503c8666d2d3587d7a53581837c7d275020f630f76570a69abeaa2fc231a29d",
       "generatedAt": "2026-04-23T17:56:26.148480"
+    },
+     "DBT.001.052.25": {
+      "code": "DBT.001.052.25",
+      "id": "8bb29d7c-3a81-4afd-be5e-acb9d7395a0e",
+      "name": "BRIGHT OPPONG TORVE",
+      "email": "torvebright@gmail.com",
+      "issueDate": "April 23, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES-3dpp",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "April 23, 2027",
+      "pdfPath": "certificates/8bb29d7c-3a81-4afd-be5e-acb9d7395a0e_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DBT.001.052.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/8bb29d7c-3a81-4afd-be5e-acb9d7395a0e_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "d713b307226f29097bcdc658045c71adf733c58bc1988dc68a890cc71e86ee27",
+      "generatedAt": "2026-04-23T19:16:13.126327"
     }
 
   },
