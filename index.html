@@ -29,6 +29,7 @@
             --gray-700: #374151;
             --gray-800: #1f2937;
             --gray-900: #111827;
+            --surface-strong: rgba(255, 255, 255, 0.92);
             --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
             --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
             --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -45,7 +46,7 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-            background: linear-gradient(135deg, var(--gray-50) 0%, rgba(212, 175, 55, 0.05) 50%, var(--white) 100%);
+            background: #f4f6f5;
             min-height: 100vh;
             color: var(--gray-700);
             line-height: 1.6;
@@ -68,7 +69,7 @@
             right: 0;
             width: 300px;
             height: 300px;
-            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.05) 0%, transparent 70%);
             border-radius: 50%;
             z-index: 0;
         }
@@ -80,19 +81,19 @@
             left: 0;
             width: 200px;
             height: 200px;
-            background: radial-gradient(circle, rgba(45, 112, 64, 0.08) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(45, 112, 64, 0.05) 0%, transparent 70%);
             border-radius: 50%;
             z-index: 0;
         }
 
         /* Header Section */
         .header-section {
-            background: linear-gradient(135deg, var(--fips-deep-green) 0%, var(--fips-green) 30%, var(--fips-green-light) 70%, var(--fips-green-ultra-light) 100%);
-            padding: 2rem 0 3rem;
+            background: linear-gradient(180deg, #0c3515 0%, #11431d 100%);
+            padding: 1.75rem 0 3rem;
             position: relative;
             overflow: hidden;
             flex-shrink: 0;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
         }
 
         .header-section::before {
@@ -102,7 +103,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="%23ffffff" opacity="0.04"/><circle cx="75" cy="75" r="1" fill="%23ffffff" opacity="0.04"/><circle cx="50" cy="10" r="0.5" fill="%23ffffff" opacity="0.05"/><circle cx="10" cy="90" r="0.5" fill="%23ffffff" opacity="0.05"/><circle cx="85" cy="40" r="0.8" fill="%23d4af37" opacity="0.03"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.03), transparent 35%, rgba(212, 175, 55, 0.04) 100%);
             pointer-events: none;
         }
 
@@ -118,7 +119,7 @@
         }
 
         .header-content {
-            max-width: 1400px;
+            max-width: 960px;
             margin: 0 auto;
             padding: 0 2rem;
             text-align: center;
@@ -131,54 +132,57 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.25rem;
         }
 
         .main-logo {
-            width: 120px;
-            height: 120px;
-            margin-bottom: 1rem;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 24px;
+            width: 104px;
+            height: 104px;
+            margin-bottom: 0.9rem;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            backdrop-filter: blur(20px);
-            border: 2px solid rgba(212, 175, 55, 0.3);
-            box-shadow: 
-                0 20px 40px rgba(0, 0, 0, 0.15),
-                0 0 0 1px rgba(255, 255, 255, 0.1),
-                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(212, 175, 55, 0.22);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
             position: relative;
             transition: all 0.3s ease;
         }
 
         .main-logo:hover {
-            transform: translateY(-2px);
-            box-shadow: 
-                0 25px 50px rgba(0, 0, 0, 0.2),
-                0 0 0 1px rgba(255, 255, 255, 0.1),
-                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            transform: translateY(-1px);
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.14);
         }
 
         .main-logo::before {
             content: '';
             position: absolute;
-            inset: -2px;
-            padding: 2px;
-            background: linear-gradient(135deg, var(--fips-gold), transparent, var(--fips-gold-light));
+            inset: 0;
+            border-radius: inherit;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            pointer-events: none;
+        }
+
+        .main-logo::after {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            padding: 1px;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.38), transparent 55%);
             border-radius: inherit;
             mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
             mask-composite: xor;
-            opacity: 0.6;
+            opacity: 0.7;
         }
 
         .main-logo img {
-            width: 85px;
-            height: 85px;
+            width: 74px;
+            height: 74px;
             object-fit: contain;
             background: transparent;
-            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.08));
         }
 
         .main-logo-fallback {
@@ -191,49 +195,47 @@
         .company-name {
             font-family: 'Poppins', sans-serif;
             color: var(--white);
-            font-size: 1.8rem;
-            font-weight: 800;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.02em;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            font-size: 1.55rem;
+            font-weight: 700;
+            margin-bottom: 0.35rem;
+            letter-spacing: -0.015em;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
             line-height: 1.2;
             text-align: center;
         }
 
         .company-tagline {
-            color: var(--fips-gold-light);
-            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.78);
+            font-size: 0.82rem;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.15em;
-            margin-bottom: 0.5rem;
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            letter-spacing: 0.18em;
+            margin-bottom: 0.45rem;
         }
 
         .company-subtitle {
-            color: rgba(255, 255, 255, 0.85);
-            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.72);
+            font-size: 0.86rem;
             font-weight: 400;
-            font-style: italic;
             opacity: 0.9;
         }
 
         .header-title {
             color: var(--white);
-            font-size: 2.2rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            letter-spacing: -0.025em;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.65rem;
+            letter-spacing: -0.02em;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
         }
 
         .header-subtitle {
-            color: rgba(255, 255, 255, 0.9);
-            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.82);
+            font-size: 0.98rem;
             font-weight: 400;
-            max-width: 700px;
+            max-width: 620px;
             margin: 0 auto;
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            line-height: 1.65;
         }
 
         /* Main Content */
@@ -242,24 +244,24 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 2rem;
+            padding: 2.5rem 1.5rem;
             position: relative;
             z-index: 1;
             min-height: 400px;
         }
 
         .verification-card {
-            background: var(--white);
-            border-radius: 24px;
-            padding: 3rem;
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 2.25rem;
             box-shadow: 
-                var(--shadow-2xl),
-                0 0 0 1px rgba(0, 0, 0, 0.05);
-            border: 1px solid rgba(212, 175, 55, 0.1);
+                0 18px 40px rgba(17, 24, 39, 0.08),
+                0 0 0 1px rgba(17, 24, 39, 0.04);
+            border: 1px solid rgba(17, 24, 39, 0.06);
             width: 100%;
-            max-width: 550px;
+            max-width: 520px;
             position: relative;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(6px);
         }
 
         .verification-card::before {
@@ -268,43 +270,46 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--fips-gold), var(--fips-gold-light), var(--fips-green-light));
-            border-radius: 24px 24px 0 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--fips-gold-dark), var(--fips-gold-light), var(--fips-green-light));
+            border-radius: 18px 18px 0 0;
         }
 
         .card-header {
             text-align: center;
-            margin-bottom: 2.5rem;
+            margin-bottom: 1.8rem;
             position: relative;
         }
 
         .card-icon {
-            width: 64px;
-            height: 64px;
-            background: linear-gradient(135deg, var(--fips-green), var(--fips-green-light));
-            border-radius: 16px;
+            width: 56px;
+            height: 56px;
+            background: rgba(10, 46, 19, 0.07);
+            border: 1px solid rgba(10, 46, 19, 0.08);
+            border-radius: 14px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 1.5rem;
-            font-size: 1.8rem;
-            color: var(--white);
-            box-shadow: var(--shadow-lg);
+            margin: 0 auto 1rem;
+            font-size: 1.4rem;
+            color: var(--fips-green);
+            box-shadow: none;
         }
 
         .card-title {
             color: var(--fips-deep-green);
-            font-size: 1.75rem;
+            font-size: 1.55rem;
             font-weight: 700;
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.6rem;
             font-family: 'Poppins', sans-serif;
         }
 
         .card-description {
             color: var(--gray-600);
-            font-size: 1rem;
-            line-height: 1.5;
+            font-size: 0.98rem;
+            line-height: 1.6;
+            max-width: 40ch;
+            margin: 0 auto;
         }
 
         /* Enhanced Form Styling */
@@ -314,15 +319,15 @@
 
         .form-group {
             position: relative;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
 
         .form-label {
             display: block;
             color: var(--gray-800);
-            font-size: 1rem;
+            font-size: 0.9rem;
             font-weight: 600;
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.6rem;
             font-family: 'Poppins', sans-serif;
         }
 
@@ -332,13 +337,13 @@
 
         .form-input {
             width: 100%;
-            padding: 1rem 1.25rem 1rem 3.5rem;
-            border: 2px solid var(--gray-300);
+            padding: 1rem 1rem 1rem 3.1rem;
+            border: 1px solid rgba(107, 114, 128, 0.26);
             border-radius: 12px;
-            font-size: 1rem;
+            font-size: 0.98rem;
             font-weight: 500;
-            transition: all 0.3s ease;
-            background: var(--white);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+            background: #fbfbfa;
             color: var(--gray-800);
             font-family: 'Inter', sans-serif;
         }
@@ -346,8 +351,8 @@
         .form-input:focus {
             outline: none;
             border-color: var(--fips-green-light);
-            box-shadow: 0 0 0 4px rgba(45, 112, 64, 0.15);
-            transform: translateY(-1px);
+            box-shadow: 0 0 0 3px rgba(45, 112, 64, 0.1);
+            background: var(--white);
         }
 
         .form-input::placeholder {
@@ -357,44 +362,42 @@
 
         .input-icon {
             position: absolute;
-            left: 1.25rem;
+            left: 1rem;
             top: 50%;
             transform: translateY(-50%);
             color: var(--gray-500);
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
+            font-size: 1rem;
+            transition: color 0.2s ease;
         }
 
         .form-input:focus + .input-icon {
             color: var(--fips-green-light);
-            transform: translateY(-50%) scale(1.1);
         }
 
         .submit-button {
             width: 100%;
-            background: linear-gradient(135deg, var(--fips-green) 0%, var(--fips-green-light) 50%, var(--fips-green-ultra-light) 100%);
+            background: linear-gradient(135deg, var(--fips-green) 0%, #154f24 100%);
             color: var(--white);
             border: none;
-            padding: 1.25rem 2rem;
+            padding: 1rem 1.5rem;
             border-radius: 12px;
-            font-size: 1rem;
+            font-size: 0.95rem;
             font-weight: 700;
             font-family: 'Poppins', sans-serif;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            box-shadow: var(--shadow-lg);
+            gap: 0.6rem;
+            letter-spacing: 0.01em;
+            box-shadow: 0 10px 24px rgba(10, 46, 19, 0.18);
         }
 
         .submit-button:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-xl);
-            background: linear-gradient(135deg, var(--fips-deep-green) 0%, var(--fips-green) 50%, var(--fips-green-light) 100%);
+            transform: translateY(-1px);
+            box-shadow: 0 14px 28px rgba(10, 46, 19, 0.22);
+            background: linear-gradient(135deg, var(--fips-deep-green) 0%, #11431d 100%);
         }
 
         .submit-button:active {
@@ -433,7 +436,7 @@
 
         .modal-content {
             background: var(--white);
-            border-radius: 24px;
+            border-radius: 18px;
             max-width: 650px;
             width: 100%;
             max-height: 90vh;
@@ -449,10 +452,10 @@
         }
 
         .modal-header {
-            padding: 2.5rem 2.5rem 1.5rem;
+            padding: 2rem 2rem 1.25rem;
             border-bottom: 1px solid var(--gray-200);
             position: relative;
-            border-radius: 24px 24px 0 0;
+            border-radius: 18px 18px 0 0;
         }
 
         .modal-close {
@@ -481,7 +484,7 @@
         }
 
         .modal-body {
-            padding: 2.5rem;
+            padding: 2rem;
         }
 
         /* Success Modal */
@@ -550,10 +553,10 @@
         }
 
         .certificate-details {
-            background: var(--gray-50);
-            padding: 2rem;
-            border-radius: 16px;
-            margin-top: 2rem;
+            background: #f8faf9;
+            padding: 1.5rem;
+            border-radius: 14px;
+            margin-top: 1.5rem;
             border: 1px solid var(--gray-200);
         }
 
@@ -598,20 +601,32 @@
         .verification-badge {
             display: inline-flex;
             align-items: center;
-            gap: 0.75rem;
-            background: linear-gradient(135deg, var(--fips-gold), var(--fips-gold-light));
+            gap: 0.6rem;
+            background: linear-gradient(135deg, #d9b446, #e6c85d);
             color: var(--fips-deep-green);
-            padding: 1rem 1.5rem;
-            border-radius: 12px;
-            font-size: 1rem;
+            padding: 0.9rem 1.25rem;
+            border-radius: 10px;
+            font-size: 0.95rem;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-top: 2rem;
+            letter-spacing: 0.04em;
+            margin-top: 1.5rem;
             width: 100%;
             justify-content: center;
-            box-shadow: var(--shadow-md);
+            box-shadow: var(--shadow-sm);
             font-family: 'Poppins', sans-serif;
+        }
+
+        .detail-link {
+            color: var(--fips-green);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(45, 112, 64, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        .detail-link:hover {
+            color: var(--fips-deep-green);
+            border-bottom-color: var(--fips-deep-green);
         }
 
         /* Additional styles for enhanced features */
@@ -677,14 +692,56 @@
             box-shadow: var(--shadow-lg);
         }
 
+        .error-panel {
+            text-align: center;
+            padding: 0.5rem 0 0;
+        }
+
+        .error-intro {
+            color: var(--gray-600);
+            margin-bottom: 1.5rem;
+            font-size: 1.02rem;
+            line-height: 1.7;
+        }
+
+        .error-list {
+            text-align: left;
+            list-style: none;
+            margin: 0;
+            padding: 1.35rem;
+            border-radius: 16px;
+            background: linear-gradient(180deg, rgba(239, 68, 68, 0.08), rgba(239, 68, 68, 0.04));
+            border: 1px solid rgba(239, 68, 68, 0.18);
+            display: grid;
+            gap: 0.9rem;
+        }
+
+        .error-list li {
+            display: flex;
+            gap: 0.75rem;
+            color: var(--gray-700);
+            line-height: 1.55;
+        }
+
+        .error-list i {
+            color: #dc2626;
+            margin-top: 0.18rem;
+        }
+
+        .error-support {
+            margin-top: 1.5rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+
         /* Enhanced Footer */
         .footer {
             text-align: center;
-            padding: 2rem;
+            padding: 1.5rem;
             color: var(--gray-600);
             font-size: 0.875rem;
             border-top: 1px solid var(--gray-200);
-            background: linear-gradient(135deg, var(--white) 0%, rgba(249, 250, 251, 0.8) 100%);
+            background: #f8faf9;
             flex-shrink: 0;
             position: relative;
             z-index: 1;
@@ -762,14 +819,14 @@
             }
 
             .main-logo {
-                width: 100px;
-                height: 100px;
-                border-radius: 20px;
+                width: 92px;
+                height: 92px;
+                border-radius: 18px;
             }
 
             .main-logo img {
-                width: 70px;
-                height: 70px;
+                width: 64px;
+                height: 64px;
             }
 
             .main-logo-fallback {
@@ -785,7 +842,7 @@
             }
             
             .header-title {
-                font-size: 1.8rem;
+                font-size: 1.75rem;
             }
 
             .header-subtitle {
@@ -793,13 +850,13 @@
             }
             
             .main-content {
-                padding: 1.5rem 1rem;
+                padding: 1.75rem 1rem;
                 min-height: 300px;
             }
             
             .verification-card {
-                padding: 2rem;
-                border-radius: 20px;
+                padding: 1.9rem;
+                border-radius: 16px;
             }
 
             .card-title {
@@ -809,12 +866,12 @@
             .modal-content {
                 margin: 1rem;
                 max-height: calc(100vh - 2rem);
-                border-radius: 20px;
+                border-radius: 16px;
             }
             
             .modal-header,
             .modal-body {
-                padding: 2rem 1.5rem;
+                padding: 1.5rem 1.25rem;
             }
             
             .detail-item {
@@ -843,18 +900,18 @@
 
         @media (max-width: 480px) {
             .header-section {
-                padding: 1.5rem 0 2rem;
+                padding: 1.4rem 0 2rem;
             }
             
             .main-logo {
-                width: 80px;
-                height: 80px;
+                width: 78px;
+                height: 78px;
                 border-radius: 16px;
             }
 
             .main-logo img {
-                width: 55px;
-                height: 55px;
+                width: 52px;
+                height: 52px;
             }
 
             .company-name {
@@ -862,7 +919,7 @@
             }
             
             .header-title {
-                font-size: 1.5rem;
+                font-size: 1.45rem;
             }
 
             .header-subtitle {
@@ -870,7 +927,7 @@
             }
             
             .verification-card {
-                padding: 1.5rem;
+                padding: 1.4rem;
                 border-radius: 16px;
             }
 
@@ -879,7 +936,7 @@
             }
             
             .form-input {
-                padding: 0.875rem 1rem 0.875rem 3rem;
+                padding: 0.9rem 0.95rem 0.9rem 2.8rem;
             }
             
             .submit-button {
@@ -909,7 +966,7 @@
                 </div>
                 
                 <h2 class="header-title">Certificate Verification System</h2>
-                <p class="header-subtitle">Verify the authenticity and validity of your digital certificates with our secure, real-time verification platform</p>
+                <p class="header-subtitle">Verify the authenticity and validity of your digital certificates with our secure, real-time verification platform.</p>
             </div>
         </div>
 
@@ -918,10 +975,10 @@
             <div class="verification-card">
                 <div class="card-header">
                     <div class="card-icon">
-                        <i class="fas fa-shield-check"></i>
+                        <i class="fas fa-shield-halved"></i>
                     </div>
                     <h3 class="card-title">Verify Your Certificate</h3>
-                    <p class="card-description">Enter your unique certificate code below to instantly verify its authenticity and view certificate details</p>
+                    <p class="card-description">Enter your certificate code below to instantly verify its authenticity and view certificate details.</p>
                 </div>
 
                 <form class="verification-form" id="verificationForm">
@@ -941,7 +998,7 @@
                     </div>
                     
                     <button type="submit" class="submit-button" id="submitButton">
-                        <i class="fas fa-shield-check"></i>
+                        <i class="fas fa-shield-halved"></i>
                         Verify Certificate
                     </button>
                 </form>
@@ -952,7 +1009,7 @@
         <div class="footer">
             <div class="footer-content">
                 <p class="footer-brand">&copy; 2025 Festari Institute of Professional Studies. All rights reserved.</p>
-                <p>Secure Certificate Verification System | Powered by <a href="it@festarigroup.com" class="footer-link">IT@FestariGroup</a></p>
+                <p>Secure Certificate Verification System | Powered by <a href="mailto:it@festarigroup.com" class="footer-link">HOLYSPIRIT</a></p>
             </div>
         </div>
     </div>
@@ -1146,7 +1203,7 @@
         // Reset button state
         function resetButton() {
             submitButton.disabled = false;
-            submitButton.innerHTML = '<i class="fas fa-shield-check"></i> Verify Certificate';
+            submitButton.innerHTML = '<i class="fas fa-shield-halved"></i> Verify Certificate';
         }
 
         // FIXED: Show success modal with enhanced features
@@ -1202,7 +1259,7 @@
                         <div class="detail-item">
                             <span class="detail-label">Verification URL</span>
                             <span class="detail-value">
-                                <a href="${certificate.verificationUrl}" target="_blank" style="color: var(--fips-green); text-decoration: underline;">
+                                <a href="${certificate.verificationUrl}" target="_blank" class="detail-link">
                                     Verify Online
                                 </a>
                             </span>
@@ -1212,6 +1269,17 @@
                     <div class="verification-badge">
                         <i class="fas fa-certificate"></i>
                         Verified Certificate
+                    </div>
+
+                    <div class="result-summary">
+                        <div class="summary-card">
+                            <span>Status</span>
+                            <strong>Authentic and active in the institutional record</strong>
+                        </div>
+                        <div class="summary-card">
+                            <span>Verification</span>
+                            <strong>Confirmed through Festari Institute's official verification database</strong>
+                        </div>
                     </div>
                     
                     <div class="certificate-actions">
@@ -1263,19 +1331,17 @@
             
             // Set body content
             modalBody.innerHTML = `
-                <div style="text-align: center; padding: 1.5rem 0;">
-                    <p style="color: var(--gray-600); margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
+                <div class="error-panel">
+                    <p class="error-intro">
                         The certificate code you entered could not be verified in our system. This could indicate:
                     </p>
-                    <div style="background: rgba(239, 68, 68, 0.1); padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0; border-left: 4px solid #ef4444;">
-                        <ul style="text-align: left; color: var(--gray-700); margin: 0; padding-left: 1.5rem; font-size: 1rem; line-height: 1.8;">
-                            <li>The certificate code is incorrect or contains typos</li>
-                            <li>The certificate has not been issued yet</li>
-                            <li>The certificate has been revoked or expired</li>
-                            <li>The certificate was not issued by Festari Institute</li>
-                        </ul>
-                    </div>
-                    <p style="color: var(--gray-600); font-size: 1rem; line-height: 1.6;">
+                    <ul class="error-list">
+                        <li><i class="fas fa-circle-xmark"></i><span>The certificate code is incorrect or contains typographical errors.</span></li>
+                        <li><i class="fas fa-circle-xmark"></i><span>The certificate has not yet been published to the verification record.</span></li>
+                        <li><i class="fas fa-circle-xmark"></i><span>The certificate has been revoked, replaced, or is no longer active.</span></li>
+                        <li><i class="fas fa-circle-xmark"></i><span>The certificate was not issued by Festari Institute of Professional Studies.</span></li>
+                    </ul>
+                    <p class="error-support">
                         Please double-check your certificate code and try again. If you continue to experience issues, 
                         contact <strong style="color: var(--fips-deep-green);">Festari Institute of Professional Studies</strong> 
                         support team for assistance.
