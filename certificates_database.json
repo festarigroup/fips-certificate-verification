@@ -4078,23 +4078,6 @@
       "verificationHash": "42af0a4a090f117c21425aaa549a349f973c3fbe143e7acff2f2cfcd6f6a884d",
       "generatedAt": "2026-02-13T20:12:19.213311"
     },
-    "MSM.001.004.25": {
-      "code": "MSM.001.004.25",
-      "id": "c80ed525-f7f9-4aca-a181-18efa8b7dfe9",
-      "name": "Mary Yaa Ahakutor",
-      "email": "magbenyegah14@gmail.com",
-      "grade": "DISTINCTION",
-      "issueDate": "February 13, 2026",
-      "event": "PROFESSIONAL CERTIFICATE IN MINE SAFETY MANAGEMENT",
-      "issuer": "Festari Institute of Professional Studies",
-      "validUntil": "February 13, 2027",
-      "pdfPath": "certificates/c80ed525-f7f9-4aca-a181-18efa8b7dfe9_certificate.pdf",
-      "verificationUrl": "https://verify.fips.ac/index.html?code=MSM.001.004.25",
-      "downloadUrl": "https://verify.fips.ac/certificates/c80ed525-f7f9-4aca-a181-18efa8b7dfe9_certificate.pdf",
-      "status": "valid",
-      "verificationHash": "4fb5db153900dfb7368d62b12600f2ef3e77f96bda2a8c25b279ef407236d5f6",
-      "generatedAt": "2026-02-13T20:12:20.060044"
-    },
     "PRS.001.001.26": {
       "code": "PRS.001.001.26",
       "id": "2741e27d-ad37-44f2-b9e4-c22bfba54f5b",
@@ -5556,6 +5539,23 @@
       "status": "valid",
       "verificationHash": "d713b307226f29097bcdc658045c71adf733c58bc1988dc68a890cc71e86ee27",
       "generatedAt": "2026-04-23T19:16:13.126327"
+    },
+    "AMS.001.002.25": {
+      "code": "AMS.001.002.25",
+      "id": "6f7fbdd6-4689-4848-b5c4-1a172ec5dd1f",
+      "name": "Mary Yaa Ahakutor",
+      "email": "m.agbenyegah@yahoo.com",
+      "grade": "DISTINCTION",
+      "issueDate": "April 25, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE SAFTEY MANAGEMENT",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "April 25, 2027",
+      "pdfPath": "certificates/6f7fbdd6-4689-4848-b5c4-1a172ec5dd1f_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=AMS.001.002.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/6f7fbdd6-4689-4848-b5c4-1a172ec5dd1f_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "d84856d45741837703d8fbf7803d91b8c524750e322b37f67b8eb34a35b248e8",
+      "generatedAt": "2026-04-25T20:52:21.759922"
     }
 
   },
