@@ -5624,6 +5624,23 @@
       "status": "valid",
       "verificationHash": "8097431a39e9e13d4857eb183b4fa4393c655b7adf284210f4858e8f020580d1",
       "generatedAt": "2026-04-29T16:46:58.165003"
+    },
+    "PMT.001.001.26": {
+      "code": "PMT.001.001.26",
+      "id": "aade9f67-b198-4a62-b019-62e065fdf943",
+      "name": "SAMUEL OKYERE",
+      "email": "okyeresam43@gmail.com",
+      "grade": "PASS",
+      "issueDate": "April 29, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "April 29, 2027",
+      "pdfPath": "certificates/aade9f67-b198-4a62-b019-62e065fdf943_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.001.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/aade9f67-b198-4a62-b019-62e065fdf943_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "235f52414bb0020308b91d20439e10ae6894a5b29e3ced007bc110a2296cbec4",
+      "generatedAt": "2026-04-29T18:58:51.642760"
     }
 
   },
