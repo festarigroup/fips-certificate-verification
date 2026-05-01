@@ -5658,6 +5658,22 @@
       "status": "valid",
       "verificationHash": "fe63871b67d836dda1c46d30979883fed2d1660042903d2a418d12254281eb5a",
       "generatedAt": "2026-05-01T14:53:53.159007"
+    },
+    "EAA.001.001.26": {
+      "code": "EAA.001.001.26",
+      "id": "78faa4e2-08b0-4b21-956a-320fdb6acdf6",
+      "name": "Abdoul-Raside OUEDRAOGO",
+      "email": "9900000000d@gmail.com",
+      "issueDate": "May 01, 2026",
+      "event": "EXCEL & POWER BI MASTERY",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "May 01, 2027",
+      "pdfPath": "certificates/78faa4e2-08b0-4b21-956a-320fdb6acdf6_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EAA.001.001.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/78faa4e2-08b0-4b21-956a-320fdb6acdf6_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "e596c32e84accfed6630796cd4784b8526eef63d9a002e9fe90290df336408c6",
+      "generatedAt": "2026-05-01T16:16:27.579125"
     }
 
   },
