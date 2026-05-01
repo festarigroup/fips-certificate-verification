@@ -5641,6 +5641,23 @@
       "status": "valid",
       "verificationHash": "235f52414bb0020308b91d20439e10ae6894a5b29e3ced007bc110a2296cbec4",
       "generatedAt": "2026-04-29T18:58:51.642760"
+    },
+    "PMT.001.002.26": {
+      "code": "PMT.001.002.26",
+      "id": "ed0f48a3-1558-476f-b955-1b8549009680",
+      "name": "Bismark Amoah",
+      "email": "bro.bismarkamoah23@gmail.com",
+      "grade": "PASS",
+      "issueDate": "May 01, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "May 01, 2027",
+      "pdfPath": "certificates/ed0f48a3-1558-476f-b955-1b8549009680_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.002.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/ed0f48a3-1558-476f-b955-1b8549009680_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "fe63871b67d836dda1c46d30979883fed2d1660042903d2a418d12254281eb5a",
+      "generatedAt": "2026-05-01T14:53:53.159007"
     }
 
   },
