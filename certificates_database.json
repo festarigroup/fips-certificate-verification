@@ -5674,6 +5674,22 @@
       "status": "valid",
       "verificationHash": "e596c32e84accfed6630796cd4784b8526eef63d9a002e9fe90290df336408c6",
       "generatedAt": "2026-05-01T16:16:27.579125"
+    },
+    "EXB.001.007.26": {
+      "code": "EXB.001.007.26",
+      "id": "4b088bc7-98e0-4041-9e98-432690fbc20c",
+      "name": "MAMPHY AMFO-ABOAGYE",
+      "email": "amfoaboagyemanphy@gmail.com",
+      "issueDate": "May 05, 2026",
+      "event": "EXCEL & POWER BI MASTERY",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "May 05, 2027",
+      "pdfPath": "certificates/4b088bc7-98e0-4041-9e98-432690fbc20c_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=EXB.001.007.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/4b088bc7-98e0-4041-9e98-432690fbc20c_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "f1f5bfaa49177f416ce479c808545cc2a769d123ae0b486927fbf0c8cc84f1fa",
+      "generatedAt": "2026-05-05T14:49:34.392422"
     }
 
   },
