@@ -5771,21 +5771,21 @@
       "verificationHash": "fabffa63b5d90cf8341432239220093fd82666005535ca22f80ab49bba125a0d",
       "generatedAt": "2026-05-05T15:15:41.875311"
     },
-    "AST.001.001.26": {
+   "AST.001.001.26": {
       "code": "AST.001.001.26",
-      "id": "689ac33e-4241-443c-be86-4d3f1476e02d",
-      "name": "Amposah Samuel\u00a0",
+      "id": "c2b35a93-7328-4580-9478-568a2237958e",
+      "name": "Samuel Amponsah",
       "email": "\u00a0kwesisamuelle@gmail.com",
-      "issueDate": "May 09, 2026",
+      "issueDate": "May 10, 2026",
       "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
       "issuer": "FIPS/UMAT",
-      "validUntil": "May 09, 2027",
-      "pdfPath": "certificates/689ac33e-4241-443c-be86-4d3f1476e02d_certificate.pdf",
+      "validUntil": "May 10, 2027",
+      "pdfPath": "certificates/c2b35a93-7328-4580-9478-568a2237958e_certificate.pdf",
       "verificationUrl": "https://verify.fips.ac/index.html?code=AST.001.001.26",
-      "downloadUrl": "https://verify.fips.ac/certificates/689ac33e-4241-443c-be86-4d3f1476e02d_certificate.pdf",
+      "downloadUrl": "https://verify.fips.ac/certificates/c2b35a93-7328-4580-9478-568a2237958e_certificate.pdf",
       "status": "valid",
-      "verificationHash": "8d74943b0efc0e8f250cd5649e9f4abea5508d0b5550bd39a233527554595da4",
-      "generatedAt": "2026-05-09T14:46:38.900787"
+      "verificationHash": "b98d45dc1bf32979bf07bb621e4d62ad4d3f4a67a4d99becd620f3c443181fb4",
+      "generatedAt": "2026-05-10T21:40:33.736119"
     },
     "AST.001.002.26": {
       "code": "AST.001.002.26",
