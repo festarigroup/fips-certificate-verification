@@ -5802,8 +5802,41 @@
       "status": "valid",
       "verificationHash": "41e4cbe4738bc81f6c41e0238c7d2af31bdc7de962e9456b2945d32b2da88c51",
       "generatedAt": "2026-05-09T14:46:40.034955"
+    },
+    "PMT.001.003.26": {
+      "code": "PMT.001.003.26",
+      "id": "42cd8b1e-9499-44ca-b285-e7b561fa67b7",
+      "name": "Endurance Korkor Buckle",
+      "email": "buckleendurance@gmail.com",
+      "grade": "DISTINCTION",
+      "issueDate": "May 15, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "May 15, 2027",
+      "pdfPath": "certificates/42cd8b1e-9499-44ca-b285-e7b561fa67b7_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.003.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/42cd8b1e-9499-44ca-b285-e7b561fa67b7_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "61e83e41152232d219bf513477446d05a4b1f7a18e674420fb1e1df2c7e4f538",
+      "generatedAt": "2026-05-15T17:20:45.308855"
+    },
+    "PMT.001.004.26": {
+      "code": "PMT.001.004.26",
+      "id": "7351284c-c003-49c4-ae72-62b1e335d583",
+      "name": "Asantewaa Wilhemina Nana Afia",
+      "email": "wilhelminaasantewaa@gmail.com",
+      "grade": "PASS",
+      "issueDate": "May 15, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "May 15, 2027",
+      "pdfPath": "certificates/7351284c-c003-49c4-ae72-62b1e335d583_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.004.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/7351284c-c003-49c4-ae72-62b1e335d583_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "acedfb8f5be8b014ac8c44bf050d0fa6d55ea729dd989012a363b793715e86d6",
+      "generatedAt": "2026-05-15T17:20:46.129872"
     }
-
   },
   "codeFormat": "EXB.001.XXX.25"
 }
