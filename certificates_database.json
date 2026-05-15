@@ -5837,6 +5837,56 @@
       "verificationHash": "acedfb8f5be8b014ac8c44bf050d0fa6d55ea729dd989012a363b793715e86d6",
       "generatedAt": "2026-05-15T17:20:46.129872"
     }
-  },
+  },"AMT.001.004.26": {
+      "code": "AMT.001.004.26",
+      "id": "afe99943-a648-48c2-8328-de71be029395",
+      "name": "SULEMANA RASHAD AMEENJAKO",
+      "email": "shadgh511@gmail.com",
+      "grade": "PASS",
+      "issueDate": "May 15, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "May 15, 2027",
+      "pdfPath": "certificates/afe99943-a648-48c2-8328-de71be029395_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=AMT.001.004.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/afe99943-a648-48c2-8328-de71be029395_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "6705cc7ede3a6bb2f5e7550d232f7bdebf941e03bcbb7391bd987e36d22c0b37",
+      "generatedAt": "2026-05-15T17:26:21.262744"
+    },
+    "AMT.001.005.26": {
+      "code": "AMT.001.005.26",
+      "id": "b2dab000-0aa2-4b87-8420-cc2f351f8c5e",
+      "name": "Assibid Dauda",
+      "email": "assibiddauda@gmail.com",
+      "grade": "WITH DISTICTION",
+      "issueDate": "May 15, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "May 15, 2027",
+      "pdfPath": "certificates/b2dab000-0aa2-4b87-8420-cc2f351f8c5e_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=AMT.001.005.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/b2dab000-0aa2-4b87-8420-cc2f351f8c5e_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "8f1856abe0e618fa8be286da8fa2b1aa7d24452302f14c24927f32ccf71699ae",
+      "generatedAt": "2026-05-15T17:26:21.824764"
+    },
+    "AMT.001.006.26": {
+      "code": "AMT.001.006.26",
+      "id": "e0ae9d9b-f489-4053-afda-88b3029a3f53",
+      "name": "Maxwell Cudjoe",
+      "email": "cudjoemaxwelll@yahoo.com",
+      "grade": "PASS",
+      "issueDate": "May 15, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "May 15, 2027",
+      "pdfPath": "certificates/e0ae9d9b-f489-4053-afda-88b3029a3f53_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=AMT.001.006.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/e0ae9d9b-f489-4053-afda-88b3029a3f53_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "cb3e6593fbd3eff857d50bc3f4c5379b7c82e43b17c73133d939a873f25e0fe9",
+      "generatedAt": "2026-05-15T17:26:22.441945"
+    },
   "codeFormat": "EXB.001.XXX.25"
 }
