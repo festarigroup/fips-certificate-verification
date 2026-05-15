@@ -5608,23 +5608,6 @@
       "verificationHash": "0665eb226b59bec0d8d2c4e1adc63fb4c007fa811ef12b14b8b3118a55470733",
       "generatedAt": "2026-04-29T16:46:56.852158"
     },
-    "AMT.001.004.26": {
-      "code": "AMT.001.004.26",
-      "id": "fe98478c-ffa0-4385-816d-800f8acba243",
-      "name": "SULEMANA RASHAD AMEENJAKO",
-      "email": "shadgh511@gmail.com",
-      "grade": "PASS",
-      "issueDate": "April 29, 2026",
-      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
-      "issuer": "Festari Institute of Professional Studies",
-      "validUntil": "April 29, 2027",
-      "pdfPath": "certificates/fe98478c-ffa0-4385-816d-800f8acba243_certificate.pdf",
-      "verificationUrl": "https://verify.fips.ac/index.html?code=AMT.001.004.26",
-      "downloadUrl": "https://verify.fips.ac/certificates/fe98478c-ffa0-4385-816d-800f8acba243_certificate.pdf",
-      "status": "valid",
-      "verificationHash": "8097431a39e9e13d4857eb183b4fa4393c655b7adf284210f4858e8f020580d1",
-      "generatedAt": "2026-04-29T16:46:58.165003"
-    },
     "PMT.001.001.26": {
       "code": "PMT.001.001.26",
       "id": "aade9f67-b198-4a62-b019-62e065fdf943",
@@ -5836,8 +5819,8 @@
       "status": "valid",
       "verificationHash": "acedfb8f5be8b014ac8c44bf050d0fa6d55ea729dd989012a363b793715e86d6",
       "generatedAt": "2026-05-15T17:20:46.129872"
-    }
-  },"AMT.001.004.26": {
+    },
+    "AMT.001.004.26": {
       "code": "AMT.001.004.26",
       "id": "afe99943-a648-48c2-8328-de71be029395",
       "name": "SULEMANA RASHAD AMEENJAKO",
@@ -5887,6 +5870,7 @@
       "status": "valid",
       "verificationHash": "cb3e6593fbd3eff857d50bc3f4c5379b7c82e43b17c73133d939a873f25e0fe9",
       "generatedAt": "2026-05-15T17:26:22.441945"
-    },
+    }
+  },
   "codeFormat": "EXB.001.XXX.25"
 }
