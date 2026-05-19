@@ -5870,6 +5870,23 @@
       "status": "valid",
       "verificationHash": "cb3e6593fbd3eff857d50bc3f4c5379b7c82e43b17c73133d939a873f25e0fe9",
       "generatedAt": "2026-05-15T17:26:22.441945"
+    },
+    "PMT.001.005.26": {
+      "code": "PMT.001.005.26",
+      "id": "4a4812f9-29d0-4819-803d-7f54167476f5",
+      "name": "Eric Mensah",
+      "email": "me643668@gmail.com",
+      "grade": "PASS",
+      "issueDate": "May 19, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "May 19, 2027",
+      "pdfPath": "certificates/4a4812f9-29d0-4819-803d-7f54167476f5_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.005.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/4a4812f9-29d0-4819-803d-7f54167476f5_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "d553c7d3a836afa242c6fc093c8a38ced1a37bcad12bdedd4d565d61b6f85bc9",
+      "generatedAt": "2026-05-19T11:00:06.970250"
     }
   },
   "codeFormat": "EXB.001.XXX.25"
