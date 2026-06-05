@@ -5904,6 +5904,23 @@
       "status": "valid",
       "verificationHash": "92a5e000611feaffe5be3ff883194e9d5df17e52a31abecca87c2c6f76230797",
       "generatedAt": "2026-05-19T11:44:24.618565"
+    },
+    "PMT.001.007.26": {
+      "code": "PMT.001.007.26",
+      "id": "d860e208-eb85-457f-b37f-840819a1772a",
+      "name": "Timothy Ahwia Ampah Whyte",
+      "email": "timothyampahwhyte2768@gmail.com",
+      "grade": "PASS",
+      "issueDate": "June 05, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "Festari Institute of Professional Studies",
+      "validUntil": "June 05, 2027",
+      "pdfPath": "certificates/d860e208-eb85-457f-b37f-840819a1772a_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.007.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/d860e208-eb85-457f-b37f-840819a1772a_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "994dcd5277177e7680cbfa9ca0078952a1e1e0977052f5dfe17c151f362d261a",
+      "generatedAt": "2026-06-05T12:08:57.002991"
     }
   },
   "codeFormat": "EXB.001.XXX.25"
