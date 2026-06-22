@@ -5985,7 +5985,24 @@
       "status": "valid",
       "verificationHash": "dd3136bc62fe2150886ca68d95e35707fd55d13fa49a07de59c419b674f4e9c2",
       "generatedAt": "2026-06-05T15:08:17.981452"
+    },
+     "PMT.001.008.26": {
+      "code": "PMT.001.008.26",
+      "id": "8edbae41-e92b-4eb2-8a62-465b4bdcdab7",
+      "name": "SAHENE EMMANUEL\u00a0",
+      "email": "bonsuemmanuel111@gmail.com",
+      "issueDate": "June 22, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "June 22, 2027",
+      "pdfPath": "certificates/8edbae41-e92b-4eb2-8a62-465b4bdcdab7_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMT.001.008.26",
+      "downloadUrl": "https://verify.fips.ac/certificates/8edbae41-e92b-4eb2-8a62-465b4bdcdab7_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "ae2626edaf23a80dd005f05aca89409e4725ac476fef74a005bc317ed17ac334",
+      "generatedAt": "2026-06-22T19:00:55.572726"
     }
+    
   },
   "codeFormat": "EXB.001.XXX.25"
 }
