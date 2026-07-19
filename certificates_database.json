@@ -6001,6 +6001,22 @@
       "status": "valid",
       "verificationHash": "ae2626edaf23a80dd005f05aca89409e4725ac476fef74a005bc317ed17ac334",
       "generatedAt": "2026-06-22T19:00:55.572726"
+    },
+    "PMP.001.013.25": {
+      "code": "PMP.001.013.25",
+      "id": "892e1f00-f03d-4048-84ee-0d0d5acc44da",
+      "name": "Obeng Jerry Darko",
+      "email": "jeord747@gmail.com",
+      "issueDate": "July 19, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINE PLANNING AND DESIGN TECHNOLOGY",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "July 19, 2027",
+      "pdfPath": "certificates/892e1f00-f03d-4048-84ee-0d0d5acc44da_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=PMP.001.013.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/892e1f00-f03d-4048-84ee-0d0d5acc44da_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "aaa9f28c658ef7b4f587335860d224ad45ae8588eb29308accbe6722ada93529",
+      "generatedAt": "2026-07-19T18:19:27.503475"
     }
     
   },
