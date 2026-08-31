@@ -6017,7 +6017,40 @@
       "status": "valid",
       "verificationHash": "aaa9f28c658ef7b4f587335860d224ad45ae8588eb29308accbe6722ada93529",
       "generatedAt": "2026-07-19T18:19:27.503475"
+    },
+     "DBT.004.052.25": {
+      "code": "DBT.004.052.25",
+      "id": "0fc50833-2098-401b-88bf-4b4529f6961b",
+      "name": "\u00a0Osei Andoh Robert Junior",
+      "email": "\u00a0oseiandohrobertjunior0597@gmail.com",
+      "issueDate": "August 31, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "August 31, 2027",
+      "pdfPath": "certificates/0fc50833-2098-401b-88bf-4b4529f6961b_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=DBT.004.052.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/0fc50833-2098-401b-88bf-4b4529f6961b_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "377b11f76997d43d549c2f2048da0ff60b03178d1d25db44ec75e43d0beb8553",
+      "generatedAt": "2026-08-31T14:28:14.879383"
+    },
+    "MOH.006.078.25": {
+      "code": "MOH.006.078.25",
+      "id": "52be41a4-87a5-4656-8cad-47abfd8a0fd4",
+      "name": "\u00a0Osei Andoh Robert Junior",
+      "email": "\u00a0oseiandohrobertjunior0597@gmail.com",
+      "issueDate": "August 31, 2026",
+      "event": "PROFESSIONAL CERTIFICATE IN MINING TECHNOLOGIES",
+      "issuer": "FIPS/UMAT",
+      "validUntil": "August 31, 2027",
+      "pdfPath": "certificates/52be41a4-87a5-4656-8cad-47abfd8a0fd4_certificate.pdf",
+      "verificationUrl": "https://verify.fips.ac/index.html?code=MOH.006.078.25",
+      "downloadUrl": "https://verify.fips.ac/certificates/52be41a4-87a5-4656-8cad-47abfd8a0fd4_certificate.pdf",
+      "status": "valid",
+      "verificationHash": "2e2ea4e8ec8a9a280c11f1e91d6e0e6d1f5a5593d396f82b75a2dd4519b5d523",
+      "generatedAt": "2026-08-31T14:34:24.426571"
     }
+    
     
   },
   "codeFormat": "EXB.001.XXX.25"
